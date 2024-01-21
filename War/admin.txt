@@ -1,0 +1,3 @@
+http://ash-chal.firebird.sh:36016/manager/html
+tomcat
+tomcat

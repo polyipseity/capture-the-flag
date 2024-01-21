@@ -1,0 +1,1 @@
+ffmpeg -i ./magic_television.mp4 "frames/%04d.png"

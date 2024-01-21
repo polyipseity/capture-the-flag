@@ -1,0 +1,7 @@
+/ping
+/user/:name
+bar
+123
+b4ckd00r
+p4ssw0rd
+admin
