@@ -1,0 +1,15 @@
+Sanity Check (102 pts, 45 solves)
+
+Sanity Check
+102 pts
+Author: firebird
+Misc
+Description
+Solves
+45
+Welcome to HKUST Firebird CTF 2024!
+
+Here is the flag for this challenge~
+
+firebird{w3lc0m3_t0_f1r3bird_ctf_2024}
+You have solved this challenge 1 day ago
