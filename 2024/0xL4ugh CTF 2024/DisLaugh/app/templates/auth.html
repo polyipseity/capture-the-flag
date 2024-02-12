@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth</title>
+    <link rel="stylesheet" href="./assets/css/auth.css">
+    <link rel="stylesheet" href="./assets/css/topbar.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css" />
+</head>
+<body>
+    <div class="top-bar">
+        <div class="tb-name">DisLaugh</div>
+        <div class="tb-ctrl-box">
+            <div class="tb-ctrl-btn ctrl-btn-exit"><img src="./assets/images/close.png"></div>
+            <div class="tb-ctrl-btn ctrl-btn-max"><img src="./assets/images/max.png"></div>
+            <div class="tb-ctrl-btn ctrl-btn-min"><img src="./assets/images/min.png"></div>
+        </div>
+    </div>
+    <div class="auth-container" >
+        <div class="m-container login" >
+            <form action="/login" method="post" class="login-form">
+                <h2>Welcome back!</h1>
+                <h4>We're so excited to see you again!</h3>
+
+                <label for="email" class="form-label">EMAIL <span class="required">*</span></label>
+                <input type="email" name="email" class="form-input" required>
+
+                <label for="password" class="form-label">PASSWORD <span class="required">*</span></label>
+                <input type="password" name="password" class="form-input" required>
+
+                <input type="submit" value="Log in" class="submit-btn">
+                <div class="addon-link">Need an account? <a href="#" onclick="showRegister()">Register</a></div>
+            </form>
+        </div>
+
+        <div class="m-container register" style="display: none;">
+            <form action="/register" method="post" class="register-form">
+                <h2>Create an account</h1>
+
+                <label for="email" class="form-label">EMAIL <span class="required">*</span></label>
+                <input type="email" name="email" class="form-input" required>
+
+                <label for="email" class="form-label">USERNAME <span class="required">*</span></label>
+                <input type="text" name="username" class="form-input" required>
+
+                <label for="password" class="form-label">PASSWORD <span class="required">*</span></label>
+                <input type="password" name="password" class="form-input" required>
+
+                <input type="submit" value="Sign Up" class="submit-btn">
+                <div class="addon-link"><a href="#" onclick="showLogin()">Already have an account?</a></div>
+            </form>
+        </div>
+    </div>
+    <script>
+        feather.replace();
+    </script>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.js"></script>
+    <script src="./assets/js/alert.js"></script>
+    <script src="assets/js/auth.js"></script>
+</body>
+</html>

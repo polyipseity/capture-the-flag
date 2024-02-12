@@ -1,0 +1,51 @@
+.top-bar {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+  
+.tb-ctrl-box {
+    display: flex;
+    flex-direction: row-reverse;
+    -webkit-app-region: no-drag;
+}
+
+.tb-name {
+    font-size: 13px;
+    margin-left: 15px;
+    color: #797979;
+    font-family: 'gg sans';
+    font-weight: 600;
+}
+
+.tb-ctrl-btn {
+    color: #a4a4a4;
+    padding: 5px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctrl-btn-exit:hover {
+    background: #ff6969;
+}
+
+.ctrl-btn-min:hover {
+    background: #303030;
+}
+.ctrl-btn-max:hover {
+    background: #303030;
+}
+
+.notifications-container {
+    z-index: 999999 !important;
+}

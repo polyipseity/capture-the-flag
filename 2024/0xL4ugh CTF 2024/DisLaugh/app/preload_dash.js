@@ -1,0 +1,1 @@
+const{ipcRenderer:e}=require("electron");window.api={send(i,n){["exit","maximize","minimize","login","invite-code"].includes(i)&&e.send(i,n)},receive(i,n){[""].includes(i)&&e.on(i,(e,...i)=>n(...i))}};

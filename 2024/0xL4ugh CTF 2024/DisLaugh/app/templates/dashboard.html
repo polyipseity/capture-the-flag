@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/dashboard.css">
+    <link rel="stylesheet" href="./assets/css/topbar.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.css" />
+</head>
+<body>
+    <div class="top-bar">
+        <div class="tb-name">DisLaugh</div>
+        <div class="tb-ctrl-box">
+            <div class="tb-ctrl-btn ctrl-btn-exit"><img src="./assets/images/close.png"></div>
+            <div class="tb-ctrl-btn ctrl-btn-max"><img src="./assets/images/max.png"></div>
+            <div class="tb-ctrl-btn ctrl-btn-min"><img src="./assets/images/min.png"></div>
+        </div>
+    </div>
+    <div class="join-server-container" style="display: none;">
+        <div class="dialog-container">
+            <div class="dialog-close"><i data-feather="x" width="22" height="22"></i></div>
+            <div class="dialog-text">Join a Server</div>
+            <div class="dialog-desc">Enter an invite code below to join an existing server</div>
+            <form action="#" class="join-form">
+                <div class="form-input-container">
+                    <label for="code" class="join-label">INVITE CODE</label>
+                    <input type="text" class="join-input" name="inviteCode" placeholder="xxxxxxxx" required>
+                </div>
+                <button type="submit" class="join-btn">Join Server</button>
+            </form>
+
+            <div class="dialog-sep">- OR -</div>
+            <div class="dialog-text">Create a Server</div>
+            <form action="#" class="create-form">
+                <div class="form-input-container">
+                    <label for="code" class="join-label">NAME</label>
+                    <input type="text" class="join-input" name="name" placeholder="Your server name" required>
+                </div>
+                <button type="submit" class="join-btn">Create new server</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="invite-code-container" style="display: none;">
+        <div class="dialog-container">
+            <div class="dialog-close"><i data-feather="x" width="22" height="22"></i></div>
+            <div class="dialog-text">Invitation Code</div>
+            <div class="dialog-desc">Invite friends to {{serverName}}</div>
+            <div class="form-input-container">
+                <label for="code" class="join-label">INVITE CODE</label>
+                <input type="text" class="join-input" placeholder="" name="inviteCode" value="{{inviteCode}}" readonly>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="dash-container">
+        <div class="servers-panel">
+            <div class="server-icon" onclick="newServer()"><i data-feather="plus"></i></div>
+        </div>
+        <div class="welcome-screen">
+            <img class="wlc-image" src="./assets/images/logo.png"/>
+            <h1 class="wlc-title">Welcome to DisLaugh!</h1>
+            <h4 class="wlc-desc">I hope you enjoy your staying here without abusing your friends ;)</h1>
+        </div>
+        <div class="channels-panel" style="display: none;">
+            <div class="server-box">
+                <div class="server-name"></div>
+                <div class="server-invite"><i data-feather="user-plus" width="20" height="20"></i></div>
+            </div>
+            <div class="channels-container" >
+                <div class="channel">
+                    <i data-feather="hash" width="14" height="14"></i> Text-Channel
+                </div>
+            </div>
+        </div>
+
+        <div class="chat-panel" style="display: none;">
+            <div class="chat-name"><i data-feather="hash" width="22" height="22"></i> Text-Channel</div>
+            <div class="chat-container"></div>
+            <form action="#" method="get" class="chat-sender">
+                <input type="text" name="message" class="msg-input" placeholder="Message #Text-Channel">
+                <button type="submit" class="msg-btn"><i data-feather="send" width="16" height="16"></i></button>
+            </form>
+        </div>
+
+        <div class="members-panel" style="display: none;">
+            <div class="members-cat">MEMBERS - 0</div>
+        </div>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+    <script>
+        window.$ = window.jQuery = require('jquery');
+    </script>
+    <script src="./assets/js/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-notify@0.5.5/dist/simple-notify.min.js"></script>
+    <script src="./assets/js/alert.js"></script>
+    <script src="./assets/js/dashboard.js"></script>
+    <script src="./assets/js/dash-events.js"></script>
+</body>
+</html>

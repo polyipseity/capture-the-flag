@@ -1,0 +1,1 @@
+const{contextBridge:e,ipcRenderer:i}=require("electron");e.exposeInMainWorld("api",{send(e,n){["exit","maximize","minimize","login","invite-code"].includes(e)&&i.send(e,n)},receive(e,n){[""].includes(e)&&i.on(e,(e,...i)=>n(...i))}});

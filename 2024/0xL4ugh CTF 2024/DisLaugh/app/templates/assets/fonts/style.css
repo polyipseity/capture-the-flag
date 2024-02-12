@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'gg sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('gg sans Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'gg sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('gg sans Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'gg sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('gg sans Medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'gg sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('gg sans Semibold.woff') format('woff');
+}

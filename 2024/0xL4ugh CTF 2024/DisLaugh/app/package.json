@@ -1,0 +1,12 @@
+{
+  "name": "dislaugh",
+  "version": "0.0.1",
+  "description": "dislaugh is a new discord alternative made by 0xlaugh",
+  "main": "app.js",
+  "author": "DarkT",
+  "license": "MIT",
+  "dependencies": {
+    "electron-browser-storage": "^1.0.7",
+    "jquery": "^3.7.1"
+  }
+}

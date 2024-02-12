@@ -1,0 +1,469 @@
+@import url(../fonts/style.css);
+
+body {
+    background: #1E1F22;
+    margin: 0;
+    padding: 0;
+}
+
+.dash-container {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 20px);
+    left: 0;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.servers-panel {
+    width: 70px;
+    min-width: 70px;
+    height: 100%;
+    background: #1E1F22;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+}
+
+.server-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #313338;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'gg sans';
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+    transition: 200ms;
+    cursor: pointer;
+}
+.server-icon:hover {
+    background: #5765F2;
+    border-radius: 35%;
+}
+
+.channels-panel {
+    width: 250px;
+    min-width: 250px;
+    height: 100%;
+    background: #2B2D31;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-radius: 10px 0 0 10px;
+}
+
+.server-box {
+    border-bottom: 1px solid #383838;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.server-name {
+    font-family: 'gg sans';
+    font-size: 16px;
+    color: #fff;
+}
+
+.server-invite {
+    color: #a8a8a8;
+    cursor: pointer;
+}
+
+.channel {
+    background: #404249;
+    margin: 0 10px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'gg sans';
+    font-size: 15px;
+    color: #b4b4b4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.members-panel {
+    width: 250px;
+    min-width: 250px;
+    background: #2B2D31;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.member-container {
+    padding: 7px 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.member-container:hover {
+    background-color: #313338;
+}
+
+.member-img {
+    width: 35px;
+    height: 35px;
+    background: #3AA55C;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'gg sans';
+    color: #ffffff;
+}
+
+.member-name {
+    font-family: 'gg sans';
+    font-size: 17px;
+    color: #b4b4b4;
+}
+
+.members-cat {
+    font-family: 'gg sans';
+    font-size: 11px;
+    font-weight: 500;
+    color: #b4b4b4;
+    margin: 15px 0 5px 15px;
+}
+
+.chat-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    background: #313338;
+}
+
+.chat-name {
+    border-bottom: 1px solid #424242;
+    padding: 10px;
+    font-family: 'gg sans';
+    font-size: 15px;
+    color: #fff;
+    margin: 0 10px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chat-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.chat-sender {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.msg-input {
+    width: 100%;
+    margin: 10px;
+    border: 0;
+    padding: 10px;
+    font-family: 'gg sans';
+    font-size: 16px;
+    background: #383A40;
+    border-radius: 5px;
+    color: #d9d9d9;
+}
+
+.msg-input:focus-visible {
+    outline: none;
+}
+
+.msg-btn {
+    padding: 10px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background: #5765F2;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.msg-btn:hover {
+    background: #626ff6;
+}
+
+.msg-container {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.msg-link-container {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.msg-author-icon {
+    width: 50px;
+    height: 50px;
+    background: #424242;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'gg sans';
+    font-weight: 300;
+    color: #fff;
+    margin-right: 20px;
+    min-width: 50px;
+}
+
+.msg-author-name {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'gg sans';
+    color: #fff;
+}
+
+.msg-details {
+    font-size: 16px;
+    font-family: 'gg sans';
+    font-weight: 300;
+    color: #979797;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #2B2D31;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #1A1B1E;
+}
+
+.msg-link-img {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.msg-link-title {
+    font-family: 'gg sans';
+    font-size: 16px;
+    font-weight: 500;
+    color: #2487C5;
+    text-decoration: none;
+}
+
+.msg-link-desc {
+    font-family: 'gg sans';
+    font-size: 12px;
+    color: #8e8e8e;
+    font-weight: 400;
+}
+
+.msg-link {
+    color: #2487C5;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'gg sans';
+    font-size: 16px;
+}
+
+.msg-link-metadata {
+    background: #2B2D31;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 3px solid #fff;
+    margin-top: 5px;
+}
+
+.welcome-screen {
+    width: 100%;
+    background: #2B2D31;
+    margin: 5px 0 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wlc-image {
+    width: 400px;
+    height: 180px;
+}
+
+.wlc-title {
+    font-family: 'gg sans';
+    font-weight: 300;
+    color: #b4b4b4;
+    margin: 10px 0;
+}
+
+.wlc-desc {
+    font-family: 'gg sans';
+    font-weight: 300;
+    color: #b4b4b4;
+    margin: 0;
+}
+
+.join-server-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: #000000b0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-container {
+    padding: 20px;
+    background: #313338;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 5px;
+}
+
+.dialog-close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #8a8a8a;
+    cursor: pointer;
+}
+
+.dialog-text {
+    font-family: 'gg sans';
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.dialog-desc {
+    font-family: 'gg sans';
+    font-size: 14px;
+    color: #969696;
+    margin-bottom: 15px;
+}
+
+.join-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.dialog-sep {
+    font-family: 'gg sans';
+    font-size: 12px;
+    color: #6d6d6d;
+    margin: 10px 0;
+}
+
+.form-input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.join-input {
+    width: 400px;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'gg sans';
+    background: #1E1F22;
+    border-radius: 3px;
+    color: #c2c2c2;
+}
+
+.join-label {
+    font-family: 'gg sans';
+    font-size: 12px;
+    font-weight: 600;
+    color: #a4a4a4;
+}
+
+.join-btn {
+    border: 0;
+    padding: 10px 13px;
+    font-size: 13px;
+    font-family: 'gg sans';
+    font-weight: 500;
+    border-radius: 3px;
+    background: #5765F2;
+    color: #fff;
+    cursor: pointer;
+}
+
+.server-active {
+    border-radius: 35% !important;
+    background: #6874f1;
+}
+
+.invite-code-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: #000000b0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

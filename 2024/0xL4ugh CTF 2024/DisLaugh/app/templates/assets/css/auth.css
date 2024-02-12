@@ -1,0 +1,101 @@
+@import url(../fonts/style.css);
+
+body {
+    background: #1E1F22;
+    margin: 0;
+    padding: 0;
+}
+
+.auth-container {
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 100%;
+    height: calc(100% - 25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5765F2;
+}
+
+.m-container {
+    width: 500px;
+    height: auto;
+    padding: 40px;
+    background: #313338;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: 'gg sans';
+    font-weight: 500;
+    color: #F2F3F5;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'gg sans';
+    font-weight: 300;
+    color: #c7c7c7;
+    margin: 10px 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-family: 'gg sans';
+    color: #c7c7c7;
+    font-size: 0.7em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+.form-input {
+    border: 0;
+    background: #1E1F22;
+    padding: 10px;
+    color: #bfbfbf;
+    font-size: 16px;
+    font-family: 'gg sans';
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    padding: 10px;
+    background: #4751C4;
+    border: 0;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'gg sans';
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.submit-btn:hover {
+    background: #5964de;
+}
+
+
+.addon-link {
+    font-family: 'gg sans';
+    font-size: 14px;
+    color: #c7c7c7;
+}
+
+a {
+    color: #2487C5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.required {
+    color: #ff0909;
+}

@@ -1,0 +1,20 @@
+diff --git a/../Library/Library/challenge.py b/./Library-revenge/challenge.py
+index 679a58e..6f68230 100644
+--- a/../Library/Library/challenge.py
++++ b/./Library-revenge/challenge.py
+@@ -134,7 +134,6 @@ def check_file_presence():
+ 
+     try:
+         result = os.popen(command).read().strip()
+-        print(result)
+         if result == book_name:
+             console.print(f"[bold green]The book is present in the current directory.[/bold green]")
+         else:
+@@ -208,4 +207,5 @@ if __name__ == "__main__":
+         elif choice == "8":
+             check_file_presence()
+         else:
+-            console.print("[bold red]Invalid choice. Please enter a number between 0 and 8.[/bold red]")
+\ No newline at end of file
++            console.print("[bold red]Invalid choice. Please enter a number between 0 and 8.[/bold red]")
++

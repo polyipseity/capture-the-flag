@@ -1,0 +1,14 @@
+{
+  "vault": [
+    {
+      "id": 0,
+      "name": "Mohamed Tarek",
+      "content": "I hope You enjoyed with me!"
+    },
+    {
+      "id": 1337,
+      "name": "flag",
+      "content": "0xL4ugh{Y0u_Ar3_FoRceR_Like_A_H0uRc3}"
+    }
+  ]
+}

