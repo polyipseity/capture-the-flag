@@ -1,6 +1,6 @@
 # Aura
 
-> - Link: https://ash.firebird.sh/challenges?id=19
+> - Link: <https://ash.firebird.sh/challenges?id=19>
 > - Author: GonJK
 > - Category: Forensics
 > - Points: 909
