@@ -102,7 +102,7 @@ if ($dbIndexable)
 }
 
 // PUSH THIS REQUEST TO NEW DB
-array_push($newDb, array("ip" => $ip, "time" => date("Y-m-d H:i:s"), "user-agent" => $_SERVER['HTTP_USER_AGENT'])); 
+array_push($newDb, array("ip" => $ip, "time" => date("Y-m-d H:i:s"), "user-agent" => $_SERVER['HTTP_USER_AGENT']));
 
 //SAVE THE DATABASE
 file_put_contents($dbFileName, json_encode($newDb));

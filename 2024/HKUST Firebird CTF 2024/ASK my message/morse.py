@@ -47,6 +47,6 @@ def decode_morse0(string: str):
         yield decode[string[:len]]
         string = string[len:]
         break
-  
+
 def decode_morse(string: str):
   return "".join(decode_morse0(string))

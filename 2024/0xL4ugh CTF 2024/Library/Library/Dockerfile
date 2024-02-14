@@ -7,5 +7,5 @@ RUN pip3 install rich  --break-system-packages
 WORKDIR /home/challenger
 USER challenger
 COPY challenge.py .
-COPY exec.sh . 
+COPY exec.sh .
 ENTRYPOINT ["sh","exec.sh"]

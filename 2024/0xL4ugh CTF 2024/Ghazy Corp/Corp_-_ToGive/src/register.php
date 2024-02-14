@@ -19,8 +19,8 @@ if(isset($_POST['register-submit']))
 		$stmt->bind_param("s", $email);
 		$stmt->execute();
 		$res=$stmt->get_result();
-        
-        
+
+
 		if($res->num_rows ===1)
 		{
 			die("<script>alert('email taken');window.location.href=history.back();</script>");
@@ -43,24 +43,24 @@ if(isset($_POST['register-submit']))
             $placeholders = implode(', ', array_fill(0, count($data), '?'));
             $sql = "INSERT INTO users (" . implode(', ', array_keys($data)) . ") VALUES (" . $placeholders . ")";
             $stmt = $conn->prepare($sql);
-            if ($stmt) 
+            if ($stmt)
             {
-                $types = str_repeat('s', count($data));  
+                $types = str_repeat('s', count($data));
                 $stmt->bind_param($types, ...array_values($data));
-            
-                if ($stmt->execute()) 
+
+                if ($stmt->execute())
                 {
                     send_registration_mail($email);
                     echo "<script>alert('User Created Successfully');window.location.href='index.php';</script>";
-                } 
-                else 
+                }
+                else
                 {
                     echo "<script>alert('Error1')</script>";
                 }
-            
+
                 $stmt->close();
-            } 
-            else 
+            }
+            else
             {
                 echo "<script>alert('Error2')</script>";
             }
@@ -88,7 +88,7 @@ if(isset($_POST['register-submit']))
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" >
     <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" >
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>  
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <style>
     /* Importing fonts from Google */

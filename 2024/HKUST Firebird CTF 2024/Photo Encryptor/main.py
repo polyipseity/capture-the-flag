@@ -11,7 +11,7 @@ app = Flask(__name__)
 def home():
     if request.method == 'GET':
         return render_template('index.html', msg='', image_b64='')
-    
+
     image = request.files['file']
     im = Image.open(image)
     pix = im.load()
@@ -26,19 +26,19 @@ def home():
     key = '<**CENSORED**>'
 
     seed(hashlib.md5(key.encode()).hexdigest().encode())
-    
+
     for x in range(width):
         for y in range(height):
             pix[x, y] = (pix[x, y][0] ^ pix[(x+randint(0, width))%width, (y+randint(0, height))%height][0],
                         pix[x, y][1] ^ pix[(x+randint(0, width))%width, (y+randint(0, height))%height][1],
                         pix[x, y][2] ^ pix[(x+randint(0, width))%width, (y+randint(0, height))%height][2])
-    
+
     for x in range(width):
         for y in range(height):
-            pix[x, y] = (pix[x, y][0] ^ ord(key[(x+y)%len(key)]), 
+            pix[x, y] = (pix[x, y][0] ^ ord(key[(x+y)%len(key)]),
                         pix[x, y][1] ^ ord(key[(x+y)%len(key)]),
                         pix[x, y][2] ^ ord(key[(x+y)%len(key)]))
-    
+
     imgByteArr = io.BytesIO()
     im.save(imgByteArr, format='png')
     encoded_img_data = base64.b64encode(imgByteArr.getvalue())

@@ -82,10 +82,10 @@ function safe_data($data)
         {
             $safe_value=md5($safe_value);
         }
-        
+
         $safe_array[$safe_key]=$safe_value;
     }
-    
+
     return $safe_array;
 }
 

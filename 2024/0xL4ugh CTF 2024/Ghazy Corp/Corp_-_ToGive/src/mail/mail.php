@@ -58,13 +58,13 @@ $res=$stmt->get_result();
                     <li><a href="#">Contacts</a></li>
                     <li><a href="#">Tasks</a></li>
                 </ul>
-                
+
             </div>
-            
+
         </div>
         <p>Welcome, <?=$_SESSION["mail_mail"];?></p>
         <a href="logout.php">logout</a>
-    </div> 
+    </div>
     <hr>
     <div class="row">
         <div class="col-sm-3 col-md-2">

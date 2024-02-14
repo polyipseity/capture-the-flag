@@ -6,7 +6,7 @@ import re
 import shlex
 import os
 
-FLAG = os.getenv("FLAG","FAKE_FLAG") 
+FLAG = os.getenv("FLAG","FAKE_FLAG")
 
 console=Console()
 class Member:

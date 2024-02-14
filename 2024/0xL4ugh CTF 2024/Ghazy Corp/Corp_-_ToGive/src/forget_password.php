@@ -92,7 +92,7 @@ padding-top: 70px;
                         <div class="form-group">
                         <input name="recover-submit" class="btn btn-lg btn-primary btn-block" value="Reset Password" type="submit">
                         </div>
-                        
+
                     </form>
 
                     </div>

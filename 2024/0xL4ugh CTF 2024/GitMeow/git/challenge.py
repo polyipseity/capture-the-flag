@@ -31,7 +31,7 @@ def get_git_commands():
                 if blacklist in command:
                     print(monkey)
                     exit(1337)
-            
+
 
         commands.append("git " + user_input)
 
@@ -45,7 +45,7 @@ def execute_git_commands(commands):
             exit(1337)
         else:
             print(output)
-            
+
 
 
 commands = get_git_commands()

@@ -1,2 +1,2 @@
 error correction level: high
-version information 
+version information

@@ -7,7 +7,7 @@ COPY banner.py .
 COPY flag.txt /
 COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
-RUN ln /flag.txt /tmp/flag.txt  # In challenge Server flag file is named randomly 
+RUN ln /flag.txt /tmp/flag.txt  # In challenge Server flag file is named randomly
 RUN adduser -D challenger
 USER challenger
 ENTRYPOINT ["sh","entrypoint.sh"]

@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once("db.php");  
+require_once("db.php");
 require_once("utils.php");
 
 if(!isset($_GET['email']) || !isset($_SESSION["reset_token3"]))

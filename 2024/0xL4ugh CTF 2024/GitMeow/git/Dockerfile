@@ -6,7 +6,7 @@ COPY challenge.py /
 COPY flag.txt /
 COPY welcome.sh /
 RUN chmod +x /welcome.sh
-RUN ln /flag.txt /tmp/flag.txt  # In challenge Server flag file is named randomly 
+RUN ln /flag.txt /tmp/flag.txt  # In challenge Server flag file is named randomly
 RUN adduser -D challenger
 WORKDIR /home/challenger
 USER challenger
