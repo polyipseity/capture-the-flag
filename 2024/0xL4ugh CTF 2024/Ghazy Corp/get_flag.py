@@ -29,5 +29,5 @@ with requests.post(
         req.content
     )  # b'Still Under Development<Br><img src=data:base64,iVBORyAgGyQpQzB4TDR1Z2h7QWhoaGhoX0hvcDNfVV9EaWRfIXRfYnlfVGgzX0ludGVuZGVkX1dAQHl9Cg+AD0APQ+AD0APQ+AD0APQ+AD0APQ+AD0APQ+AD0APQ+AD0APQ+AD0APQ+AD0AP'
     print(
-        base64.b64decode(req.content.split(b",", 2)[1])
+        base64.b64decode(req.content.split(b",", 1)[1])
     )  # b'\x89PNG  \x1b$)C0xL4ugh{Ahhhhh_Hop3_U_Did_!t_by_Th3_Intended_W@@y}\n\x0f\x80\x0f@\x0fC\xe0\x03\xd0\x03\xd0\xf8\x00\xf4\x00\xf4>\x00=\x00=\x0f\x80\x0f@\x0fC\xe0\x03\xd0\x03\xd0\xf8\x00\xf4\x00\xf4>\x00=\x00=\x0f\x80\x0f@\x0f'

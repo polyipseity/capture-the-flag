@@ -1,0 +1,10 @@
+http://20.244.82.82:2913/
+
+http://20.244.82.82:2913/robots.txt
+User-Agent: *
+Disallow: /tournament
+
+http://20.244.82.82:2913/tournament
+
+http://20.244.82.82:2913/humans.html
+Increase the value of the hidden input with name `slay` significantly and then click the button.
