@@ -1,0 +1,57 @@
+ExifTool Version Number         : 12.73
+File Name                       : seasonal_greetings.jpg
+Directory                       : .
+File Size                       : 105 kB
+Zone Identifier                 : Exists
+File Modification Date/Time     : 2024:03:02 20:38:31+08:00
+File Access Date/Time           : 2024:03:02 20:39:01+08:00
+File Creation Date/Time         : 2024:03:02 20:38:54+08:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+JFIF Version                    : 1.01
+Resolution Unit                 : inches
+X Resolution                    : 96
+Y Resolution                    : 96
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Image Description               : secret-directive.nuttyshell.cc
+XP Title                        : secret-directive.nuttyshell.cc
+XP Comment                      : secret-directive.nuttyshell.cc
+Padding                         : (Binary data 268 bytes, use -b option to extract)
+Profile CMM Type                : Little CMS
+Profile Version                 : 2.1.0
+Profile Class                   : Display Device Profile
+Color Space Data                : RGB
+Profile Connection Space        : XYZ
+Profile Date Time               : 2018:03:20 09:14:29
+Profile File Signature          : acsp
+Primary Platform                : Microsoft Corporation
+CMM Flags                       : Not Embedded, Independent
+Device Manufacturer             : Unknown (saws)
+Device Model                    : ctrl
+Device Attributes               : Reflective, Glossy, Positive, Color
+Rendering Intent                : Perceptual
+Connection Space Illuminant     : 0.9642 1 0.82491
+Profile Creator                 : Unknown (hand)
+Profile ID                      : 9d91003d4080b03d40742c819ea5228e
+Profile Description             : uRGB
+Profile Copyright               : CC0
+Media White Point               : 0.9505 1 1.089
+Red Matrix Column               : 0.43604 0.22244 0.0139
+Green Matrix Column             : 0.3851 0.71693 0.09708
+Blue Matrix Column              : 0.14307 0.06062 0.71393
+Red Tone Reproduction Curve     : (Binary data 96 bytes, use -b option to extract)
+Green Tone Reproduction Curve   : (Binary data 96 bytes, use -b option to extract)
+Blue Tone Reproduction Curve    : (Binary data 96 bytes, use -b option to extract)
+About                           : uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b
+Title                           : secret-directive.nuttyshell.cc
+Description                     : secret-directive.nuttyshell.cc
+Image Width                     : 875
+Image Height                    : 1115
+Encoding Process                : Baseline DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 875x1115
+Megapixels                      : 0.976

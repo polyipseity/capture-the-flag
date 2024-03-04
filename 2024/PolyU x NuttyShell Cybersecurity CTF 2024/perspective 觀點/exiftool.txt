@@ -1,0 +1,29 @@
+ExifTool Version Number         : 12.73
+File Name                       : perspective.jpg
+Directory                       : ../perspective 觀點
+File Size                       : 790 kB
+Zone Identifier                 : Exists
+File Modification Date/Time     : 2024:03:02 00:06:07+08:00
+File Access Date/Time           : 2024:03:02 14:00:14+08:00
+File Creation Date/Time         : 2024:03:02 00:06:21+08:00
+File Permissions                : -rw-rw-rw-
+File Type                       : JPEG
+File Type Extension             : jpg
+MIME Type                       : image/jpeg
+DCT Encode Version              : 100
+APP14 Flags 0                   : (none)
+APP14 Flags 1                   : (none)
+Color Transform                 : YCbCr
+Exif Byte Order                 : Big-endian (Motorola, MM)
+Copyright                       : PUCTF24{puctf_24_hexvalue}
+Padding                         : (Binary data 268 bytes, use -b option to extract)
+About                           : uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b
+Rights                          : PUCTF24{puctf_24_hexvalue}
+Image Width                     : 1833
+Image Height                    : 1892
+Encoding Process                : Progressive DCT, Huffman coding
+Bits Per Sample                 : 8
+Color Components                : 3
+Y Cb Cr Sub Sampling            : YCbCr4:2:0 (2 2)
+Image Size                      : 1833x1892
+Megapixels                      : 3.5

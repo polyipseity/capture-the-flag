@@ -1,0 +1,3 @@
+Use the time delay between copying the php file and deleting the php file...
+
+http://chal.polyuctf.com:41341/uploads/bomb-a36e1a31-525f-4802-a863-5746206756dd/test.php
