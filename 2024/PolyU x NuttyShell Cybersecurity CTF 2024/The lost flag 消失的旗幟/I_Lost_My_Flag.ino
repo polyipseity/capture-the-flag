@@ -92,11 +92,11 @@ void setup() {
 
   lcdCmd(0x02); // HD44780 Datasheet Figure 11, "Function Set", DL=0 for 4-bits interface mode
   lcdCmd(0x28); // "Function Set", DL=0, N=1, F=0
-  lcdCmd(0x0C); // "Display on/off control", D=1, C=0, B=0 
+  lcdCmd(0x0C); // "Display on/off control", D=1, C=0, B=0
   lcdCmd(0x06); // "Entry Mode Set", I/D=1, S=0
   lcdCmd(0x01); // "Clear display"
   lcdCmd(0x80); // "Set DDRAM address" to 0x00
-  
+
   delay(50);
 
   lcdWriteString("THE LOST FLAG \xEF");

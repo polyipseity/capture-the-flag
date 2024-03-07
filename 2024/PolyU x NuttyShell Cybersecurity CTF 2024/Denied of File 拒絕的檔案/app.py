@@ -12,10 +12,10 @@ def execute_file():
 
     environ = {}
     environ[name] = value
- 
+
     if os.path.exists(file) or os.path.isfile(file) or not os.path.isabs(file):
         return "NO"
-    
+
     file = os.path.realpath(file)
     output = subprocess.check_output(file, shell=False, env=environ)
 

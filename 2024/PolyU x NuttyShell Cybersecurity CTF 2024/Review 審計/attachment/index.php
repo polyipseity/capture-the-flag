@@ -31,7 +31,7 @@ if(isset($_POST["submit"])){
                 $filename = $zip->getNameIndex($i);
                 $fileinfo = pathinfo($filename);
                 copy("zip://"."./uploads/" . $_FILES["file"]["name"]."#".$filename, $dir . "/". $fileinfo['basename']) or die("Unzip failed!");
-            }                   
+            }
             $zip->close();
 
             $files = scandir($dir);
