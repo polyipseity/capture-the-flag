@@ -1,0 +1,2482 @@
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 2
+States from q0 to q1 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 1
+Enter the number of transitions.: 2
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 1
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 3
+States from q0 to q2 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 2
+Enter the number of transitions.: 3
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 2
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 4
+States from q0 to q3 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 3
+Enter the number of transitions.: 4
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 3
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 5
+States from q0 to q4 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 4
+Enter the number of transitions.: 5
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 4
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 5
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 7
+States from q0 to q6 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 6
+Enter the number of transitions.: 7
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 6
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 8
+States from q0 to q7 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 7
+Enter the number of transitions.: 8
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 7
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 10
+States from q0 to q9 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 9
+Enter the number of transitions.: 10
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 @ 9
+>>>9 @ 9
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 11
+States from q0 to q10 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 10
+Enter the number of transitions.: 11
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 @ 9
+>>>9 @ 10
+>>>10 @ 10
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 12
+States from q0 to q11 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 11
+Enter the number of transitions.: 12
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 @ 9
+>>>9 @ 10
+>>>10 @ 11
+>>>11 @ 11
+0
+
+Length is 10
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 2
+States from q0 to q1 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 1
+Enter the number of transitions.: 2
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 ~p 1
+>>>1 @ 1
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 2
+States from q0 to q1 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 1
+Enter the number of transitions.: 2
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 ~_ 1
+>>>1 @ 1
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 2
+States from q0 to q1 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 1
+Enter the number of transitions.: 2
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 ~a 1
+>>>1 @ 1
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 2
+States from q0 to q1 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 1
+Enter the number of transitions.: 2
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 ~b 1
+>>>1 @ 1
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 2
+States from q0 to q1 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 1
+Enter the number of transitions.: 2
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 ~c 1
+>>>1 @ 1
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 2
+States from q0 to q1 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 1
+Enter the number of transitions.: 2
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 ~d 1
+>>>1 @ 1
+Machine in trapped state.
+
+Next char is d
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 3
+States from q0 to q2 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 2
+Enter the number of transitions.: 3
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 ~e 2
+>>>2 @ 2
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 3
+States from q0 to q2 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 2
+Enter the number of transitions.: 3
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 ~_ 2
+>>>2 @ 2
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 3
+States from q0 to q2 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 2
+Enter the number of transitions.: 3
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 ~a 2
+>>>2 @ 2
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 3
+States from q0 to q2 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 2
+Enter the number of transitions.: 3
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 ~b 2
+>>>2 @ 2
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 3
+States from q0 to q2 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 2
+Enter the number of transitions.: 3
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 ~c 2
+>>>2 @ 2
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 3
+States from q0 to q2 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 2
+Enter the number of transitions.: 3
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 ~d 2
+>>>2 @ 2
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 3
+States from q0 to q2 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 2
+Enter the number of transitions.: 3
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 ~f 2
+>>>2 @ 2
+Machine in trapped state.
+
+Next char is f
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 4
+States from q0 to q3 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 3
+Enter the number of transitions.: 4
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 ~a 3
+>>>3 @ 3
+Machine in trapped state.
+
+Next char is a
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 5
+States from q0 to q4 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 4
+Enter the number of transitions.: 5
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 ~r 4
+>>>4 @ 4
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 5
+States from q0 to q4 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 4
+Enter the number of transitions.: 5
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 ~_ 4
+>>>4 @ 4
+Machine in trapped state.
+
+Next char is _
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 ~l 5
+>>>5 @ 5
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 ~_ 5
+>>>5 @ 5
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 ~a 5
+>>>5 @ 5
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 ~b 5
+>>>5 @ 5
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 ~c 5
+>>>5 @ 5
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 ~d 5
+>>>5 @ 5
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 ~e 5
+>>>5 @ 5
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 ~f 5
+>>>5 @ 5
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 ~g 5
+>>>5 @ 5
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 6
+States from q0 to q5 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 5
+Enter the number of transitions.: 6
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 ~h 5
+>>>5 @ 5
+Machine in trapped state.
+
+Next char is h
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 7
+States from q0 to q6 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 6
+Enter the number of transitions.: 7
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 ~{ 6
+>>>6 @ 6
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 7
+States from q0 to q6 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 6
+Enter the number of transitions.: 7
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 ~_ 6
+>>>6 @ 6
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 7
+States from q0 to q6 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 6
+Enter the number of transitions.: 7
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 ~a 6
+>>>6 @ 6
+Machine in trapped state.
+
+Next char is a
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 8
+States from q0 to q7 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 7
+Enter the number of transitions.: 8
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 ~_ 7
+>>>7 @ 7
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 8
+States from q0 to q7 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 7
+Enter the number of transitions.: 8
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 ~a 7
+>>>7 @ 7
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 8
+States from q0 to q7 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 7
+Enter the number of transitions.: 8
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 ~b 7
+>>>7 @ 7
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 8
+States from q0 to q7 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 7
+Enter the number of transitions.: 8
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 ~c 7
+>>>7 @ 7
+Machine in trapped state.
+
+Next char is c
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~_ 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~a 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~b 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~c 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~d 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~e 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~f 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~g 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~h 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~i 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~j 8
+>>>8 @ 8
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 9
+States from q0 to q8 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 8
+Enter the number of transitions.: 9
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 ~k 8
+>>>8 @ 8
+Machine in trapped state.
+
+Next char is k
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 10
+States from q0 to q9 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 9
+Enter the number of transitions.: 10
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 ~_ 9
+>>>9 @ 9
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 10
+States from q0 to q9 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 9
+Enter the number of transitions.: 10
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 ~a 9
+>>>9 @ 9
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 10
+States from q0 to q9 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 9
+Enter the number of transitions.: 10
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 ~b 9
+>>>9 @ 9
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 10
+States from q0 to q9 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 9
+Enter the number of transitions.: 10
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 ~c 9
+>>>9 @ 9
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 10
+States from q0 to q9 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 9
+Enter the number of transitions.: 10
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 ~d 9
+>>>9 @ 9
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 10
+States from q0 to q9 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 9
+Enter the number of transitions.: 10
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 ~e 9
+>>>9 @ 9
+Machine in trapped state.
+
+Next char is e
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 11
+States from q0 to q10 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 10
+Enter the number of transitions.: 11
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 @ 9
+>>>9 ~_ 10
+>>>10 @ 10
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 11
+States from q0 to q10 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 10
+Enter the number of transitions.: 11
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 @ 9
+>>>9 ~a 10
+>>>10 @ 10
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 11
+States from q0 to q10 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 10
+Enter the number of transitions.: 11
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 @ 9
+>>>9 ~b 10
+>>>10 @ 10
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 11
+States from q0 to q10 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 10
+Enter the number of transitions.: 11
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 @ 9
+>>>9 ~c 10
+>>>10 @ 10
+1
+
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
+ 888   .d88'  888             .8"888.      888   .d88'  888         
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
+ 888          888    "      .88ooo8888.    888`88b.     888         
+ 888          888       o  .8'     `888.   888  `88b.   888       o 
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+
+Welcome to The Finite State Machine:
+=======================RULES===========================
+The flag is set as the input string, and the alphabets of the language are set to a-z, {, }, _.
+Here, you can define your own states and transitions.
+If there is no defined transition for a particular letter, then the machine gets trapped.
+It must be a DFA, not an NFA.
+An output of 1 means that the string is present in the language; 0 means otherwise.
+'@' takes the machine from one state to another by consuming any one letter.
+'~l' takes the machine from one state to another by consuming one letter unless the letter is 'l'.
+Example: '5 @ 6' takes the machine from state 5 to state 6 for all letters.
+Example: '6 ~b 7' takes the machine from state 6 to state 7 for all letters except 'b'.
+=================================================
+Enter number of states: 11
+States from q0 to q10 is created.
+The starting state is set to q0.
+Enter all the final states seperated by space (e.g., 5 7 9) to set q5,q7,q9 as final states: 10
+Enter the number of transitions.: 11
+Enter the transitions one at a time
+Format: initial_state letter final_state
+================================
+>>>0 @ 1
+>>>1 @ 2
+>>>2 @ 3
+>>>3 @ 4
+>>>4 @ 5
+>>>5 @ 6
+>>>6 @ 7
+>>>7 @ 8
+>>>8 @ 9
+>>>9 ~d 10
+>>>10 @ 10
+Machine in trapped state.
+
+Next char is d
+Flag is dfa_hacked

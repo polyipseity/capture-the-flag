@@ -1,0 +1,8 @@
+bit depth is: 16 bits per channel x 3 channels
+direct: black <-> green, yellow <-> red
+
+thinking of https://en.wikipedia.org/wiki/Holomorphic_function#Definition
+car2 blue is always 0
+
+car1 bgr [unknown, dv/dy, du/dx]
+car2 bgr [0, dv/dx, du/dy]

@@ -1,0 +1,41 @@
+diff --git a/../learn HTTP/src/.dockerignore b/src/.dockerignore
+index ae84271..8231c97 100644
+--- a/../learn HTTP/src/.dockerignore	
++++ b/src/.dockerignore
+@@ -1 +1,2 @@
+-./node_modules
+\ No newline at end of file
++./node_modules
++./main
+\ No newline at end of file
+diff --git a/../learn HTTP/src/main.go b/src/main.go
+index 1db12ee..6b44005 100644
+--- a/../learn HTTP/src/main.go	
++++ b/src/main.go
+@@ -75,6 +75,11 @@ func processClient(connection net.Conn) {
+ 		return
+ 	}
+ 
+-	_, err = connection.Write([]byte(body[0]))
++	splitted_resp := strings.Split(body[0], "\r\n\r\n")
++	new_header := strings.Join([]string{splitted_resp[0], "Content-Security-Policy: script-src 'self'"}, "\r\n")
++
++	final_body := strings.Join([]string{new_header, splitted_resp[1]}, "\r\n\r\n")
++
++	_, err = connection.Write([]byte(final_body))
+ 	connection.Close()
+ }
+\ No newline at end of file
+diff --git a/../learn HTTP/src/main.js b/src/main.js
+index 6b4955b..03c973c 100644
+--- a/../learn HTTP/src/main.js	
++++ b/src/main.js
+@@ -31,7 +31,7 @@ app.post("/check", (req, res) => {
+             return res.status(200).send("Body is not provided")
+         }
+ 
+-        let to_req = `http://localhost:5001/resp?body=${encodeURIComponent(req_body)}`
++        let to_req = `http://localhost:5001/resp?body=${encodeURI(req_body)}`
+ 
+         childProcess.spawn('node', ['./bot.js', JSON.stringify({
+             url: to_req,

