@@ -1,0 +1,53 @@
+$ await (await fetch('/api/options')).json()
+{
+    "allPossibleCommands": {
+        "1": [
+            "HEAD NORTH",
+            "HEAD WEST",
+            "HEAD EAST",
+            "HEAD SOUTH"
+        ],
+        "2": [
+            "GO DEEPER INTO THE FOREST",
+            "FOLLOW A MYSTERIOUS PATH",
+            "CLIMB A TREE",
+            "TURN BACK"
+        ],
+        "3": [
+            "EXPLORE A CAVE",
+            "CROSS A RICKETY BRIDGE",
+            "FOLLOW A GLOWING BUTTERFLY",
+            "SET UP CAMP"
+        ],
+        "4": [
+            "ENTER A MAGICAL PORTAL",
+            "SWIM ACROSS A MYSTERIOUS LAKE",
+            "FOLLOW A SINGING SQUIRREL",
+            "BUILD A RAFT AND SAIL DOWNSTREAM"
+        ],
+        "secret": [
+            "Blip-blop, in a pickle with a hiccup! Shmiggity-shmack"
+        ]
+    }
+}
+
+$ http://94.237.54.48:31155/
+You abruptly find yourself lucid in the middle of a bizarre, alien forest.
+How the hell did you end up here?
+Eerie, indistinguishable sounds ripple through the gnarled trees, setting the hairs on your neck on edge.
+Glancing around, you spot a gangly, grinning figure lurking in the shadows, muttering 'Xclow3n' like some sort of deranged mantra, clearly waiting for you to pass out or something. Creepy much?
+Heads up! This forest isn't your grandmother's backyard.
+It's packed with enough freaks and frights to make a horror movie blush. Time to find your way out.
+The stakes? Oh, nothing big. Just your friends, plunged into an abyss of darkness and despair.
+Punch in 'start' to kick things off in this twisted adventure!
+>> start
+YOU WAKE UP IN A FOREST.
+
+You have 4 options!
+HEAD NORTH
+HEAD SOUTH
+HEAD EAST
+HEAD WEST
+>> Blip-blop, in a pickle with a hiccup! Shmiggity-shmack
+HTB{D3v3l0p3r_t00l5_4r3_b35t_wh4t_y0u_Th1nk??!}
+You escaped the forest and won the game! Congratulations! Press restart to play again.

