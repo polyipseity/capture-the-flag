@@ -1,0 +1,5 @@
+# custom {
+/LDAP/*.class
+/LDAP/*.jar
+/image.jpg
+# }

