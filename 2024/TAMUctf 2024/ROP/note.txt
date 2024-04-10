@@ -1,0 +1,7 @@
+gdb
+
+start test
+stepi 7100
+
+break *0x000000000041c460 # strlen_ifunc
+break *0x0000000000438dd0 # __strlen_sse2
