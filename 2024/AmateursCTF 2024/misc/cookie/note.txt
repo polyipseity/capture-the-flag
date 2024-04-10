@@ -1,0 +1,19 @@
+from the junctions, note that any input pass through the entire column
+the right output of each junction acts like xor
+there are also some pass through gate
+target: make all right output at the right most end 1
+
+left_in,top_in
+bottom_out = top_in, right_out = xor
+
+example
+
+1?0?
+0?1?
+
+14x7
+
+first column offset 1
+topleft, 3, 16
+bottomleft, 3, 8626
+topright, 8613, 4321

@@ -1,0 +1,15 @@
+The description is a hint:
+
+> osint/wumpus-leaks
+> smashmaster
+> 5 solves / 497 points
+> hopefully redacted enough, im kind of bad at this whole iphone photography thing so it took a few attempts to make this intentionally cringe msfrog in front of the flag, hopefully no one can guess the flag using this info
+> 
+> Flag (solved)
+> Downloads
+> 
+> IMG_7276.jpg
+
+Try decrement the number in the filename until you get <https://cdn.discordapp.com/attachments/1098086661847535719/1226012804150984754/IMG_7262.jpg>.
+
+Then post the link on Discord and click on it, then the parameters will be regenerated and you can download the image.

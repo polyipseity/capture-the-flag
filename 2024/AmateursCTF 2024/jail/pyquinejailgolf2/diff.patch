@@ -1,0 +1,60 @@
+diff --git a/../pyquinejailgolf/main.py b/./main.py
+index 44886b5..04154e9 100644
+--- a/../pyquinejailgolf/main.py
++++ b/./main.py
+@@ -25,34 +25,29 @@ with TemporaryDirectory() as workdir:
+     assert "pyquinejailgolf" in program, "are you sure you wrote this program yourself?"
+     assert len(program) == 343
+ 
+-    import sys
+-    stdout = sys.stdout
+-    with open('runtime/trash.txt', 'w+') as sys.stdout:
+-        goal = time.time_ns() + 5000000000
+-        try:
+-            with open('runtime/external_run.py', 'w+') as f:
+-                f.write(f"""
+-with open('runtime/output.txt', 'w+') as __import__('sys').stdout:
+-    {program = }
+-    safe_builtins = {{}}
+-    for i in dir(__builtins__):
+-        if i[0] not in __import__('string').ascii_lowercase:
+-            safe_builtins[i] = eval(i)
+-    safe_builtins['print'] = print
+-    new_builtins = {{'__builtins__':safe_builtins}}
+-    try:exec(program, new_builtins, new_builtins)
+-    except:pass""")
+-            __import__('os').system('timeout 2.5 /usr/local/bin/python3 runtime/external_run.py')
+-        except:
+-            pass
++    goal = time.time_ns() + 5000000000
++    try:
++        with open('runtime/external_run.py', 'w+') as f:
++            f.write(f"""
++{program = }
++safe_builtins = {{}}
++for i in dir(__builtins__):
++    if i[0] not in __import__('string').ascii_lowercase + "_":
++        safe_builtins[i] = eval(i)
++safe_builtins['print'] = print
++new_builtins = {{'__builtins__':safe_builtins}}
++try:exec(program, new_builtins, new_builtins)
++except:pass""")
++        handle = __import__('subprocess').run('timeout 2.5 /usr/local/bin/python3 runtime/external_run.py', shell=True, capture_output=True, encoding='utf-8')
++    except:
++        pass
+ 
+     time.sleep(max(0, (goal - time.time_ns())/1e9))
+-    sys.stdout = stdout
+-    with open('runtime/output.txt') as f:
+-        if (c := f.read()[::-1]) == program:
+-            print("good jorb")
+-        else:
+-            exit("bad")
++  
++    if (handle.stdout[::-1]) == program:
++        print("good jorb")
++    else:
++        exit("bad")
+ 
+     with open('/app/flag.txt') as f:
+         print(f.read())

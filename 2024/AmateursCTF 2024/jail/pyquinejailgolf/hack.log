@@ -1,0 +1,13 @@
+Enter a reverse quine. It must print its source code backwards (including any trailing newlines).
+It must be non-empty and contain 0 quotation marks or dunders. All ascii btw. oh and no builtins.
+To prove you wrote it yourself, it must contain the string 'pyquinejailgolf', and be ==343 chars.
+Well...I'm not sure how you're supposed to write a quine without print statements. u can have em.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~ Type <END> to terminate the program input ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+>>> #                                                                                pyquinejailgolf
+from builtins import bytes,chr,eval,open,str
+ret=open(bytes([114,117,110,116,105,109,101,47,101,120,116,101,114,110,97,108,95,114,117,110,46,112,121]).decode()).read()
+print(eval(ret[ret.find(chr(39),70):ret.find(chr(39),90)+1])[::-1],end=str())
+
+>>> <END>
+>>> >>> >>> >>> good jorb
+amateursCTF{what_is_a_quine_is_that_like_a_reversed_reverse_quine?}

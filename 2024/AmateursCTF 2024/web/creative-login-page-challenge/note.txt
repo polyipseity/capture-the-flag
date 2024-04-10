@@ -1,0 +1,1 @@
+BCrypt has a maximum password length of 72.

