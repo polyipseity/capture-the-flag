@@ -1,0 +1,23 @@
+total 14124
+drwxr-xr-x   1 root root     4096 Apr 13 19:21 app
+lrwxrwxrwx   1 root root        7 Apr  8 00:00 bin -> usr/bin
+drwxr-xr-x   2 root root     4096 Jan 28 21:20 boot
+drwxr-xr-x   5 root root      360 Apr 13 19:21 dev
+drwxr-xr-x   1 root root     4096 Apr 13 19:21 etc
+-rw-r--r--   1 root root 14397496 Apr 13 05:17 flag.png
+drwxr-xr-x   2 root root     4096 Jan 28 21:20 home
+lrwxrwxrwx   1 root root        7 Apr  8 00:00 lib -> usr/lib
+lrwxrwxrwx   1 root root        9 Apr  8 00:00 lib64 -> usr/lib64
+drwxr-xr-x   2 root root     4096 Apr  8 00:00 media
+drwxr-xr-x   2 root root     4096 Apr  8 00:00 mnt
+drwxr-xr-x   2 root root     4096 Apr  8 00:00 opt
+dr-xr-xr-x 257 root root        0 Apr 13 19:21 proc
+-rw-r--r--   1 root root       30 Apr 13 05:17 requirements.txt
+drwx------   1 root root     4096 Apr 10 14:47 root
+drwxr-xr-x   1 root root     4096 Apr 10 05:25 run
+lrwxrwxrwx   1 root root        8 Apr  8 00:00 sbin -> usr/sbin
+drwxr-xr-x   2 root root     4096 Apr  8 00:00 srv
+dr-xr-xr-x  13 root root        0 Apr 13 19:21 sys
+drwxrwxrwt   1 root root     4096 Apr 13 05:25 tmp
+drwxr-xr-x   1 root root     4096 Apr  8 00:00 usr
+drwxr-xr-x   1 root root     4096 Apr  8 00:00 var

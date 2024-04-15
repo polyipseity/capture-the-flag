@@ -1,0 +1,30 @@
+username: firebird
+password: firebird
+
+public_key.png: /view/d2667708-83bc-4156-8622-56d445cd236b.png
+
+JWT: eyJhbGciOiJSUzI1NiIsImtpZCI6InB1YmxpY19rZXkucGVtIiwidHlwIjoiSldUIn0.eyJ1c2VyX2lkIjoxMTksImFkbWluIjpmYWxzZX0.LlzM5GOhy29CsPqGyPi2e7_JcRQNseOSgyOdtLGWe9aYwDxTGLS1Gyie8f_XCbIfzOLXQf0YIae1kChkA-XyJT1h6SFMBmgm6MiZRqTYMfsX891eXbeJtukbXcgs-O5N3wNaud3Boj8G8GNa7hYM-H1-fuqU5ZGyraZ_f4XJ0phTAaSncFXUYwOV4dPOHtyGxHrfh3YHCGVhYz5XxD95-CiK-JWQtmCfN6QjDyp_JrI9ld7mkqTIFdOvqvZkBz8ym-kUDlQZk6haRqTli7F2u4ahKJAaYHqa7XzzM0GJuAW4QVUeMpWtX9AH8WB37UGH-YuVUyVgNHUcF4vkqbFlLx6SDLIVaTgBd7Ojx458Hw1Hb_Kf5hdRNVptWxV1sOm9B4j_ITAjY6JasN5fH2td1fFX0QpshnjIZOmNGdAKC9oA-mErdZkVWJFX5Nb5iCufloeXz7QRJU3melRQGJeXU7-3InYWBPKGwwrB4Ax4iKCg2FqNmek0Yyv2ElWcC4iG7RlEygkG1ev4tLKFmG8OyTDkC5aSTbT-Kb6L7HBWG0FQkdRx1tfMg_G9rdasSs5d0CqEpRW7l7wN45CKUPDVCFSkRj4wkn6ZFCvRt2Qp78OMYzOLLojbMqSYSU_Hd5ykrsiV4rn7WFxBdzY73UBgRmIusZNnciN0FsXHKttmHWw
+header
+{
+  "alg": "RS256",
+  "kid": "public_key.pem",
+  "typ": "JWT"
+}
+payload
+{
+  "user_id": 119,
+  "admin": false
+}
+
+header
+{
+  "alg": "RS256",
+  "kid": "../uploads/d2667708-83bc-4156-8622-56d445cd236b.png",
+  "typ": "JWT"
+}
+payload
+{
+  "user_id": 1,
+  "admin": true
+}
+JWT: eyJhbGciOiJSUzI1NiIsImtpZCI6InVwbG9hZHMvZDI2Njc3MDgtODNiYy00MTU2LTg2MjItNTZkNDQ1Y2QyMzZiLnBuZyIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImFkbWluIjp0cnVlfQ.JMmTbcxnWdXxa3BpjZivIZKyiBZZ9TaBoMbNS6fzcM6LHDPvEsqgM4wsE6zuLpi475eUH8ioC_jcc260NjH-RRCZsgUbYSsh3dWI0SsuUZuzaPresPZQheGkC6hoYvu_bD-yehCL_tfKJXo1Qe96xMS-Xaz6QvDXRFG2ZrjUQ5A
