@@ -1,5 +1,5 @@
 <?php
-class Router 
+class Router
 {
     public $routes = [];
 
@@ -20,12 +20,12 @@ class Router
             $split      = explode('@', $controller);
             $class      = $split[0];
             $function   = $split[1];
-            
+
             $r['controller'] = [
                 'class'     => $class,
                 'function'  => $function
             ];
-            
+
             $this->routes[] = $r;
         }
         else

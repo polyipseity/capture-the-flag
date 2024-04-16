@@ -54,7 +54,7 @@ def word_guess_challenge():
                 exit(1)
             finally:
                 signal.alarm(0)
-        
+
         sim_score = similarity(user_guess, target_word)
 
         if user_guess == target_word:
@@ -68,5 +68,5 @@ def word_guess_challenge():
         print(f"Sorry, you did not guess the correct word. ")
 
 if __name__ == '__main__':
-    load_model()    
+    load_model()
     word_guess_challenge()

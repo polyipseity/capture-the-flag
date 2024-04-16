@@ -39,7 +39,7 @@ def search():
     searched = db.execute(f"SELECT searched FROM table_{id}").fetchone()[0]
     if searched:
         return "you've used your shot."
-    
+
     db.execute(f"UPDATE table_{id} SET searched = 1")
 
     query = db.execute(f"SELECT password FROM table_{id} WHERE password LIKE '%{request.form['query']}%'")
@@ -64,7 +64,7 @@ def guess():
     result = db.execute(f"SELECT password FROM table_{id} WHERE password = ?", (request.form['password'],)).fetchone()
     if result != None:
         return flag
-    
+
     db.execute(f"DROP TABLE table_{id}")
     return "You failed. <a href='/'>Go back</a>"
 

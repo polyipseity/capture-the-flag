@@ -39,7 +39,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
       $image->setSize(100, 3000000);
       $image->setMime(array('jpeg', 'gif', 'png'));
       $upload = $image->upload();
-  
+
       if($upload) {
         header('Location: /index.php?message=Image uploaded successfully&status=success');
       } else {
@@ -52,18 +52,18 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     if(!preg_match("/(htm)|(php)|(js)|(css)/", $_REQUEST['url'])) {
       $url = filter_var($_REQUEST['url'], FILTER_SANITIZE_URL);
       if(filter_var($url, FILTER_VALIDATE_URL)) {
-        $img = file_get_contents($url); 
+        $img = file_get_contents($url);
         if($img !== false) {
           $mime = substr($url, strrpos($url, '.') + 1);
           $file = random_filename(32, 'uploads/' . $sess, $mime);
-          
+
           $f = fopen('uploads/' . $sess . '/' . $file, "wb");
           if($f !== false) {
             fwrite($f, $img);
             fclose($f);
             header('Location: /index.php?message=Image uploaded successfully&status=success');
           } else {
-            header('Location: /index.php?message=Image upload failed&status=fail'); 
+            header('Location: /index.php?message=Image upload failed&status=fail');
           }
         } else {
           header('Location: /index.php?message=Image upload failed&status=fail');
@@ -173,7 +173,7 @@ if(scandir('uploads/' . $sess) != False) {
     }
   </script>
   <script>
-    document.querySelector('form').addEventListener('submit', async function(event) {  
+    document.querySelector('form').addEventListener('submit', async function(event) {
       const form = event.currentTarget;
       const url = new URL(form.action);
 

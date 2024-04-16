@@ -110,7 +110,7 @@ def slots():
     jwt_token = request.cookies.get('jwt')
     if jwt_token == None or not is_valid_token(jwt_token, app.config['SECRET_KEY']):
         return redirect("/login")
-    
+
     if request.method == "GET":
         username = decode_token(jwt_token, app.config['SECRET_KEY'])["username"]
         if (checkBalance(username) == 0):

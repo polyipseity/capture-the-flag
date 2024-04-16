@@ -43,7 +43,7 @@ except:pass""")
         pass
 
     time.sleep(max(0, (goal - time.time_ns())/1e9))
-  
+
     if (handle.stdout[::-1]) == program:
         print("good jorb")
     else:

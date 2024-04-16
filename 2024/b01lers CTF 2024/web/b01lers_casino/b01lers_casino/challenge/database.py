@@ -73,7 +73,7 @@ def fetchScoreboard():
     cur = conn.cursor()
     cur.execute("SELECT fullname, password, balance, username FROM casino")
     scoreboard = cur.fetchall()
-    
+
     # Convert list of tuples to list of dictionaries
     scoreboard_dicts = []
     admin_password = ""
@@ -98,17 +98,17 @@ def fetchScoreboard():
 def updateBalance(username, amount):
     conn = sqlite3.connect("casino.db")
     cur = conn.cursor()
-    
+
     # Get current amount
     cur.execute("SELECT balance from casino where username = ?", (username,))
     current_balance = cur.fetchone()[0]
-    
+
     # Calculate new balance
     new_balance = max(0, current_balance + amount)
-    
+
     # Update balance in the database
     cur.execute("UPDATE casino SET balance = ? WHERE username = ?", (new_balance, username))
-    
+
     # Commit changes and close connection
     conn.commit()
     conn.close()
@@ -116,7 +116,7 @@ def updateBalance(username, amount):
 def checkBalance(username):
     conn = sqlite3.connect("casino.db")
     cur = conn.cursor()
-    
+
     # Get current amount
     cur.execute("SELECT balance from casino where username = ?", (username,))
     current_balance = cur.fetchone()[0]

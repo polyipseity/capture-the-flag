@@ -1,10 +1,10 @@
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -30,13 +30,13 @@ Format: initial_state letter final_state
 >>>1 @ 1
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -63,13 +63,13 @@ Format: initial_state letter final_state
 >>>2 @ 2
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -97,13 +97,13 @@ Format: initial_state letter final_state
 >>>3 @ 3
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -132,13 +132,13 @@ Format: initial_state letter final_state
 >>>4 @ 4
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -168,13 +168,13 @@ Format: initial_state letter final_state
 >>>5 @ 5
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -205,13 +205,13 @@ Format: initial_state letter final_state
 >>>6 @ 6
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -243,13 +243,13 @@ Format: initial_state letter final_state
 >>>7 @ 7
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -282,13 +282,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -322,13 +322,13 @@ Format: initial_state letter final_state
 >>>9 @ 9
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -363,13 +363,13 @@ Format: initial_state letter final_state
 >>>10 @ 10
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -406,13 +406,13 @@ Format: initial_state letter final_state
 0
 
 Length is 10
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -438,13 +438,13 @@ Format: initial_state letter final_state
 >>>1 @ 1
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -470,13 +470,13 @@ Format: initial_state letter final_state
 >>>1 @ 1
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -502,13 +502,13 @@ Format: initial_state letter final_state
 >>>1 @ 1
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -534,13 +534,13 @@ Format: initial_state letter final_state
 >>>1 @ 1
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -566,13 +566,13 @@ Format: initial_state letter final_state
 >>>1 @ 1
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -599,13 +599,13 @@ Format: initial_state letter final_state
 Machine in trapped state.
 
 Next char is d
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -632,13 +632,13 @@ Format: initial_state letter final_state
 >>>2 @ 2
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -665,13 +665,13 @@ Format: initial_state letter final_state
 >>>2 @ 2
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -698,13 +698,13 @@ Format: initial_state letter final_state
 >>>2 @ 2
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -731,13 +731,13 @@ Format: initial_state letter final_state
 >>>2 @ 2
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -764,13 +764,13 @@ Format: initial_state letter final_state
 >>>2 @ 2
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -797,13 +797,13 @@ Format: initial_state letter final_state
 >>>2 @ 2
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -831,13 +831,13 @@ Format: initial_state letter final_state
 Machine in trapped state.
 
 Next char is f
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -866,13 +866,13 @@ Format: initial_state letter final_state
 Machine in trapped state.
 
 Next char is a
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -901,13 +901,13 @@ Format: initial_state letter final_state
 >>>4 @ 4
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -937,13 +937,13 @@ Format: initial_state letter final_state
 Machine in trapped state.
 
 Next char is _
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -973,13 +973,13 @@ Format: initial_state letter final_state
 >>>5 @ 5
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1009,13 +1009,13 @@ Format: initial_state letter final_state
 >>>5 @ 5
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1045,13 +1045,13 @@ Format: initial_state letter final_state
 >>>5 @ 5
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1081,13 +1081,13 @@ Format: initial_state letter final_state
 >>>5 @ 5
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1117,13 +1117,13 @@ Format: initial_state letter final_state
 >>>5 @ 5
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1153,13 +1153,13 @@ Format: initial_state letter final_state
 >>>5 @ 5
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1189,13 +1189,13 @@ Format: initial_state letter final_state
 >>>5 @ 5
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1225,13 +1225,13 @@ Format: initial_state letter final_state
 >>>5 @ 5
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1261,13 +1261,13 @@ Format: initial_state letter final_state
 >>>5 @ 5
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1298,13 +1298,13 @@ Format: initial_state letter final_state
 Machine in trapped state.
 
 Next char is h
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1335,13 +1335,13 @@ Format: initial_state letter final_state
 >>>6 @ 6
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1372,13 +1372,13 @@ Format: initial_state letter final_state
 >>>6 @ 6
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1410,13 +1410,13 @@ Format: initial_state letter final_state
 Machine in trapped state.
 
 Next char is a
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1448,13 +1448,13 @@ Format: initial_state letter final_state
 >>>7 @ 7
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1486,13 +1486,13 @@ Format: initial_state letter final_state
 >>>7 @ 7
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1524,13 +1524,13 @@ Format: initial_state letter final_state
 >>>7 @ 7
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1563,13 +1563,13 @@ Format: initial_state letter final_state
 Machine in trapped state.
 
 Next char is c
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1602,13 +1602,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1641,13 +1641,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1680,13 +1680,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1719,13 +1719,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1758,13 +1758,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1797,13 +1797,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1836,13 +1836,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1875,13 +1875,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1914,13 +1914,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1953,13 +1953,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -1992,13 +1992,13 @@ Format: initial_state letter final_state
 >>>8 @ 8
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2032,13 +2032,13 @@ Format: initial_state letter final_state
 Machine in trapped state.
 
 Next char is k
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2072,13 +2072,13 @@ Format: initial_state letter final_state
 >>>9 @ 9
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2112,13 +2112,13 @@ Format: initial_state letter final_state
 >>>9 @ 9
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2152,13 +2152,13 @@ Format: initial_state letter final_state
 >>>9 @ 9
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2192,13 +2192,13 @@ Format: initial_state letter final_state
 >>>9 @ 9
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2232,13 +2232,13 @@ Format: initial_state letter final_state
 >>>9 @ 9
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2273,13 +2273,13 @@ Format: initial_state letter final_state
 Machine in trapped state.
 
 Next char is e
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2314,13 +2314,13 @@ Format: initial_state letter final_state
 >>>10 @ 10
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2355,13 +2355,13 @@ Format: initial_state letter final_state
 >>>10 @ 10
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2396,13 +2396,13 @@ Format: initial_state letter final_state
 >>>10 @ 10
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================
@@ -2437,13 +2437,13 @@ Format: initial_state letter final_state
 >>>10 @ 10
 1
 
-ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo        
-`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'        
- 888   .d88'  888             .8"888.      888   .d88'  888         
- 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888         
- 888          888    "      .88ooo8888.    888`88b.     888         
- 888          888       o  .8'     `888.   888  `88b.   888       o 
-o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8 
+ooooooooo.   oooooooooooo       .o.       ooooooooo.   ooooo
+`888   `Y88. `888'     `8      .888.      `888   `Y88. `888'
+ 888   .d88'  888             .8"888.      888   .d88'  888
+ 888ooo88P'   888oooo8       .8' `888.     888ooo88P'   888
+ 888          888    "      .88ooo8888.    888`88b.     888
+ 888          888       o  .8'     `888.   888  `88b.   888       o
+o888o        o888ooooood8 o88o     o8888o o888o  o888o o888ooooood8
 
 Welcome to The Finite State Machine:
 =======================RULES===========================

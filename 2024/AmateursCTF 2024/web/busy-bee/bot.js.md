@@ -29,7 +29,7 @@ const challenges = new Map([
     },
     urlRegex: /^https:\/\/busy-bee-amateurs-ctf-2024\.pages\.dev/,
   }],
-  
+
 ])
 
 module.exports = {

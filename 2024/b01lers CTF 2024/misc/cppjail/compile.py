@@ -23,7 +23,7 @@ banned_words = [
     "ifndef", "ifdef",
     "Lock", "Key",
     "class", "struct",
-    "*", "int", "char", "short", "long",    
+    "*", "int", "char", "short", "long",
     " "
 ]
 

@@ -36,7 +36,7 @@ static_assert(sizeof(std::declval<Jail<void>::lock<'b',0>>().k.i)!=1);
 int main(void) {
     ::Prisoner prisoner1;
     ::Prisoner prisoner2;
-    
+
     assert((&prisoner1) != (&prisoner2));
     ::printf("Prisoner 2 %p\n", &prisoner1);
     ::printf("Prisoner 1 %p\n", &prisoner1);

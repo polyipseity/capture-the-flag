@@ -21,13 +21,13 @@ class User(UserMixin):
 
     def is_active(self):
         return self.active
-    
+
     def get_id(self):
         return self.name
-    
+
     def is_authenticated(self):
         return True
-    
+
 class V(str, enum.Enum):
     user = 'user'
     admin = 'admin'
@@ -58,7 +58,7 @@ def createpost():
     if len(content) > 20:
         return render_template('createpost.html', message=None, error='Content too long!', post=None)
     return render_template('createpost.html', message=f'Post successfully created, view it at /view/{post_id}', error=None)
-    
+
 @app.get('/createpost', endpoint='createpost_get')
 @login_required
 def createpost():

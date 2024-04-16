@@ -1,11 +1,11 @@
-<?php 
+<?php
 /**
  * BULLETPROOF.
- * 
+ *
  * A single-class PHP library to upload images securely.
- * 
+ *
  * PHP support 5.3+
- * 
+ *
  * @version     4.0.0
  * @author      https://twitter.com/_samayo
  * @link        https://github.com/samayo/bulletproof
@@ -107,7 +107,7 @@ class Image implements \ArrayAccess
 
     /**
      * \ArrayAccess unused method
-     * 
+     *
      * @param mixed $offset
      * @param mixed $value
      */
@@ -115,14 +115,14 @@ class Image implements \ArrayAccess
 
     /**
      * \ArrayAccess unused method
-     * 
+     *
      * @param mixed $offset
      */
     public function offsetExists($offset){}
 
     /**
      * \ArrayAccess unused method
-     * 
+     *
      * @param mixed $offset
      */
     public function offsetUnset($offset){}

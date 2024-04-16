@@ -4,7 +4,7 @@ FROM kociarz/kottomasz
 WORKDIR /app
 COPY pom.xml /app
 
-RUN mvn -f /app/pom.xml dependency:go-offline -B 
+RUN mvn -f /app/pom.xml dependency:go-offline -B
 
 COPY src /app/src
 

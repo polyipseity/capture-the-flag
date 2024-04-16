@@ -36,7 +36,7 @@ class Prisoner {};
 int main(void) {
     ::Prisoner prisoner1;
     ::Prisoner prisoner2;
-    
+
     assert((&prisoner1) != (&prisoner2));
     ::printf("Prisoner 2 %p\n", &prisoner1);
     ::printf("Prisoner 1 %p\n", &prisoner1);
