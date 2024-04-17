@@ -1,0 +1,16 @@
+username: firebird
+password: firebird
+
+username: A
+password: A
+
+Not SQL
+Not XXS
+Flask, from error messages
+
+eyJ1c2VybmFtZSI6IkEifQ.Zh7LGQ.hUPTG6QcIK1X-F1jSzvxcKE7TzI
+
+$ python -m flask_unsign --decode --cookie=eyJ1c2VybmFtZSI6IkEifQ.Zh7LGQ.hUPTG6QcIK1X-F1jSzvxcKE7TzI
+{'username': 'A'}
+
+SSTI and bypass regex

