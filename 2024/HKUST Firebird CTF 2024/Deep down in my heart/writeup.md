@@ -10,7 +10,7 @@ What! It is obfuscated?! Legend has it that finding the original code is impossi
 
 If you feel dizzy, you can listen to [this](https://youtu.be/XpqqjU7u5Yc?si=sqkSGwilIn4CMg19)
 
-[File](writeup/app-release.apk)
+[File](attachments/app-release.apk)
 
 ## Solution
 

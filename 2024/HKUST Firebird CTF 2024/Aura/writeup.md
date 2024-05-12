@@ -8,13 +8,13 @@
 
 Are you kidding, LSB is a great demon who has lived for more than 500 years!
 
-[aura.tif](writeup/aura.tif)
+[aura.tif](attachments/aura.tif)
 
 ## Solution
 
 Extract the 4th least significant bit of the green channel as a black and white image. This results in the following image:
 
-![The 4th least significant bit of the green channel represented as a black and white image. The image contains an anime girl and the flag.](writeup/g@4.png)
+![The 4th least significant bit of the green channel represented as a black and white image. The image contains an anime girl and the flag.](attachments/g@4.png)
 
 Transcribe the flag in the image to get `firebird{d0nt_w4tch_4n_4n1m3_c4ll3d_fr13r3n}`.
 
@@ -48,7 +48,7 @@ for bits in range(4):
 
 Then all is obvious:
 
-![A screenshot of the file explorer showing the extracted images.](writeup/extracted.png)
+![A screenshot of the file explorer showing the extracted images.](attachments/extracted.png)
 
 3 images seemingly have the flag. It is not too difficult to find the real flag as the other 2 fake flags do not have the format `firebird{...}`.
 
@@ -56,4 +56,4 @@ Of course, one could skip most of the above reasoning by simply extracting all t
 
 ## Alternatives
 
-- Crank the exposure of [aura.tif](writeup/aura.tif) up to maximum with your choice of photo editor.
+- Crank the exposure of [aura.tif](attachments/aura.tif) up to maximum with your choice of photo editor.

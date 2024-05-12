@@ -10,7 +10,7 @@ Seems someone hide a hidden backdoor in this demo API server!
 
 The flag is written in the file /flag.
 
-Attachment: [basic](writeup/basic)
+Attachment: [basic](attachments/basic)
 
 Web: <http://ash-chal.firebird.sh:36001>
 
@@ -272,11 +272,11 @@ Content-Length: 15
 
 Yes! It works. But it seems like only `value` is required but not `command`. In IDA, you should see the following graph:
 
-![A graph in IDA showing the execution graph of binding to `value` and binding to `command` are separated by a conditional jump.](writeup/value%20and%20command%20graph.png)
+![A graph in IDA showing the execution graph of binding to `value` and binding to `command` are separated by a conditional jump.](attachments/value%20and%20command%20graph.png)
 
 So a natural question is, how do I make the code jump to the branch binding to `command`? Let's scroll up a bit:
 
-![A graph in IDA showing `X-Forwarded-For` being checked.](writeup/X-Forwarded-For%20graph.png)
+![A graph in IDA showing `X-Forwarded-For` being checked.](attachments/X-Forwarded-For%20graph.png)
 
 `X-Forwarded-For` followed by `net_textproto_MIMEHeader_Get`? So it is getting the `X-Fowarded-For` header for some reason. From [Mozilla docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For), it is "a de-facto standard header for identifying the originating IP address of a client connecting to a web server through a proxy server".
 
