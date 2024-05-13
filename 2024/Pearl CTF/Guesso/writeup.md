@@ -39,7 +39,7 @@ Or do we? This is the most difficult part of this challenge. If you read the des
 
 And if you have a bit of background knowledge about word-to-vector embedding, you could guess what you need to find. Searching `word2vec google news 300` online would yield the `word2vec-google-news-300` model. Since their source code is using `gensim`, we will also use the `gensim` method of getting the model. In particularly, I found out about the model on <https://radimrehurek.com/gensim/models/word2vec.html#pretrained-models>.
 
-Now that we know the model name, we just need to code up the thing described in [§ Solution](#Solution), and we are good to go! Well, except that you would need to spend quite some time coding up the thing, downloading the model (it's somewhat large), and debugging your code. Good luck!
+Now that we know the model name, we just need to code up the thing described in [§ solution](#solution), and we are good to go! Well, except that you would need to spend quite some time coding up the thing, downloading the model (it's somewhat large), and debugging your code. Good luck!
 
 One more thing, we know it is feasible to obtain the word using at most 4 cosine similarities only. Consider that there are only about ~150000 words in the vector model, and there are about ~2000 possible cosine similarities, we expect 2 to 3 cosine similarities suffice to single out 1 word from the model by combinational explosion.
 
