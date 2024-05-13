@@ -1,0 +1,16 @@
+PS > .\bkcrack-1.6.1-win64\bkcrack.exe -C locked-out.zip -c flag.png -P unlocked-out.zip -p flag.png         
+bkcrack 1.6.1 - 2024-01-22
+[01:55:01] Z reduction using 5 bytes of known plaintext
+100.0 % (5 / 5)
+[01:55:01] Attack on 1132321 Z values at index 6
+Keys: 9c9d83e5 7915abee 58998fbc
+4.3 % (48778 / 1132321)
+Found a solution. Stopping.
+You may resume the attack with the option: --continue-attack 48778
+[01:55:33] Keys
+9c9d83e5 7915abee 58998fbc
+PS > .\bkcrack-1.6.1-win64\bkcrack.exe -C locked-out.zip -k 9c9d83e5 7915abee 58998fbc -U unlocked.zip ""
+bkcrack 1.6.1 - 2024-01-22
+[01:57:58] Writing unlocked archive unlocked.zip with password ""
+100.0 % (2 / 2)
+Wrote unlocked archive.
