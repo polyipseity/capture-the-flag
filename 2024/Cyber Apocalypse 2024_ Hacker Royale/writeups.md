@@ -1,3 +1,3 @@
-# Writeups
+# writeups
 
 - [TimeKORP](TimeKORP/writeup.md)

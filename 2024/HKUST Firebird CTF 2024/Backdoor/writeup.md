@@ -14,7 +14,7 @@ Attachment: [basic](attachments/basic)
 
 Web: <http://ash-chal.firebird.sh:36001>
 
-## Solution
+## solution
 
 `curl` the website with the following credentials, headers, and body:
 
@@ -30,7 +30,7 @@ Content-Length: 86
 
 Decode the Base64 string `ZmlyZWJpcmR7ZzBfZjFuZF95MHVyX2JhY2tkMDByNSF+fQo=` to get the flag `firebird{g0_f1nd_y0ur_backd00r5!~}`. (By the way, <https://emn178.github.io/online-tools/> is a great website.)
 
-## Process
+## process
 
 To start off, let's talk about the context when solving this. You see, I only have the most rudimentary knowledge of assembly and have not even used IDA before, so the process below will be unnecessarily long compared to someone knowing them.
 

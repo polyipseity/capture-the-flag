@@ -10,7 +10,7 @@ Are you kidding, LSB is a great demon who has lived for more than 500 years!
 
 [aura.tif](attachments/aura.tif)
 
-## Solution
+## solution
 
 Extract the 4th least significant bit of the green channel as a black and white image. This results in the following image:
 
@@ -18,7 +18,7 @@ Extract the 4th least significant bit of the green channel as a black and white 
 
 Transcribe the flag in the image to get `firebird{d0nt_w4tch_4n_4n1m3_c4ll3d_fr13r3n}`.
 
-## Process
+## process
 
 The description mentions "LSB", which stands for [least significant bits](https://en.wikipedia.org/wiki/Bit_numbering#Least_significant_bit_in_digital_steganography). It can be used to hide messages in an image without visibly altering the appearance of the image. It works by altering the least significant bits of the image data, so the value of the image data only changes too slightly to be seen.
 
@@ -54,6 +54,6 @@ Then all is obvious:
 
 Of course, one could skip most of the above reasoning by simply extracting all the 16 bits and use less time on this challenge... 🫠
 
-## Alternatives
+## alternatives
 
 - Crank the exposure of [aura.tif](attachments/aura.tif) up to maximum with your choice of photo editor.

@@ -15,7 +15,7 @@
 >
 > - [`challenge.py`](challenge.py)
 
-## Solution
+## solution
 
 Use the `gensim.downloader` to download the `word2vec-google-news-300` word vector model.
 
@@ -27,7 +27,7 @@ Finally, the flag is `pearl{d4yumm_y0u_kn0w_y0ur_v3ct0rs}`.
 
 See `hack.py` for a reference implementation.
 
-## Process
+## process
 
 From the provided source code [`challenge.py`](challenge.py), it looks like we need to find the word using the returned cosine similarities only, as cosine similarities is the only useful information.
 

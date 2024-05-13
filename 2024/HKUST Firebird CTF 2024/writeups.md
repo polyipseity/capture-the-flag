@@ -1,4 +1,4 @@
-# Writeups
+# writeups
 
 - [Aura](Aura/writeup.md)
 - [Backdoor](Backdoor/writeup.md)

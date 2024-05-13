@@ -12,11 +12,11 @@ If you feel dizzy, you can listen to [this](https://youtu.be/XpqqjU7u5Yc?si=sqkS
 
 [File](attachments/app-release.apk)
 
-## Solution
+## solution
 
 Extract `lib/*/libnative-lib.so`. `*` is a wildcard standing for a folder of any name. There are 4 such files, and any one of them will work. Then open the library file in a text editor of your choice and search for `driberif`, the reverse of `firebird`. One should find `}3v0l_07_5r3gn4r75_0n_3r4_3w{driberif`. Reverse the text to get `firebird{w3_4r3_n0_57r4ng3r5_70_l0v3}`.
 
-## Process
+## process
 
 First, one should know that [`apk`](https://en.wikipedia.org/wiki/Apk_(file_format)) is just another format using the ubiquitous [`zip`](https://en.wikipedia.org/wiki/ZIP_(file_format)). This is the case for quite a lot of file formats as no one is gonna reinvent the wheel and make their own archive format. Even if you do not know that, trying to extract the file as a `zip` first is a good idea in general. So unzip the file into a folder.
 
