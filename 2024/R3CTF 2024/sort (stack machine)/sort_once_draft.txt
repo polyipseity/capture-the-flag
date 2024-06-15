@@ -1,0 +1,80 @@
+in: position a in bytes
+in: position b in bytes
+a < b
+stack: val
+
+DUP
+DUP
+PUSH (b - a) * 8
+SHL
+XOR
+PUSH 255
+PUSH b * 8
+SHL
+AND
+stack: val, bitmask@b
+
+PUSH 0
+PUSH (b - a) * 8
+SUB
+stack: val, bitmask@b, (a - b) * 8
+
+DUP2
+SWAP
+SHL
+stack: val, bitmask@b, bitmask@a
+
+OR
+stack: val, bitmask
+opcodes: 21
+
+DUP2
+DUP2
+DUP2
+stack: val, bitmask, val, bitmask, val
+opcodes: 24
+
+XOR
+stack: val, bitmask, val, val2
+opcodes: 25
+
+GT
+MUL
+XOR
+stack: new_val
+opcodes: 28
+
+---
+
+PUSH a * 8
+PUSH 0
+SUB
+DUP2
+SHL
+stack: val, val >> (a * 8)
+
+PUSH b * 8
+PUSH 0
+SUB
+DUP3
+SHL
+stack: val, val >> (a * 8), val >> (b * 8)
+
+XOR
+PUSH 255
+AND
+stack: val, bitmask
+
+PUSH a * 8
+DUP2
+SHL
+stack: val, bitmask, bitmask << (a * 8)
+
+SWAP
+PUSH b * 8
+SWAP
+SHL
+stack: val, bitmask << (a * 8), bitmask << (b * 8)
+
+OR
+stack: val, bitmask << (a * 8) | bitmask << (b * 8)
