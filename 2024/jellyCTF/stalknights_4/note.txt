@@ -1,0 +1,5 @@
+https://github.com/starknight1337/rustlings_practice
+https://github.com/starknight1337/rustlings_practice/activity
+https://github.com/starknight1337/rustlings_practice/compare/d140d49b6135119a20be4689cf8bb6b13fdaa69d...2d52f1b3d6b7d63735a9e932fa049eb835753df8
+https://github.com/starknight1337/rustlings_practice/commit/2d52f1b3d6b7d63735a9e932fa049eb835753df8
+Luke Ritterman

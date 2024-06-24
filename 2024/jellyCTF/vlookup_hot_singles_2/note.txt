@@ -1,0 +1,6 @@
+https://github.com/advisories/GHSA-chqf-hx79-gxc6
+https://foss.heptapod.net/openpyxl/openpyxl/-/issues/749
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiamVsbHkifQ.7wQ41K0c7OZqWaePlf3v0QKuX-jOc4kFqks_eWrfQhE
+https://exploit-notes.hdks.org/exploit/web/security-risk/blind-xxe/
+https://nvd.nist.gov/vuln/detail/CVE-2017-5992
+https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=854442
