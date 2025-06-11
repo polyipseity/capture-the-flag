@@ -1,0 +1,33 @@
+{
+  "message": "Development resources",
+  "documentation": "Internal use only",
+  "auth_testing": {
+    "deprecated": true,
+    "notes": "For development/testing environments only",
+    "known_issues": [
+      "Never use 'none' algorithm in production",
+      "Verify signatures for all requests"
+    ],
+    "example_patterns": {
+      "debug_mode": "Set debug flags before authentication",
+      "verification_options": "Can be customized via API requests with appropriate parameters",
+      "test_sample": {
+        "key": "testing",
+        "value_format": "boolean string representation"
+      },
+      "jwt_params": [
+        "testing",
+        "jwt_verify_options"
+      ],
+      "jwt_options": {
+        "format": "JSON string with testing and verify flags"
+      }
+    },
+    "advanced": {
+      "request_customization": "Requests can include verification options in query string",
+      "params": [
+        "testing flag"
+      ]
+    }
+  }
+}

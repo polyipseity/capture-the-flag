@@ -1,0 +1,33 @@
+{
+  "version": "1.2.5",
+  "environment": "production",
+  "features": {
+    "debug": {
+      "enabled": false,
+      "level": "error"
+    }
+  },
+  "security": {
+    "jwt": {
+      "algorithm": "HS256",
+      "expiry": "2h"
+    },
+    "testing_mode": {
+      "_comment": "Do not enable in production",
+      "enabled": false,
+      "options": {
+        "login_params": {
+          "debug_param": "debug"
+        },
+        "api_query_strings": {
+          "hint": "When testing with verification bypasses, use appropriate query parameters",
+          "debug_params": [
+            "testing",
+            "jwt_verify_options"
+          ]
+        },
+        "naming_convention": "Options follow jwt_* format for verification settings"
+      }
+    }
+  }
+}
