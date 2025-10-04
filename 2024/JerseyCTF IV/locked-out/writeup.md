@@ -14,7 +14,7 @@ Create a `flag.png` with the bytes `89 50 4E 47 0D 0A 1A 0A 00 00 00 0D` and zip
 Run the following command (with the expected output provided):
 
 ```shell
-$ ./bkcrack-1.6.1-win64/bkcrack.exe -C locked-out.zip -c flag.png -P unlocked-out.zip -p flag.png         
+$ ./bkcrack-1.6.1-win64/bkcrack.exe -C locked-out.zip -c flag.png -P unlocked-out.zip -p flag.png
 bkcrack 1.6.1 - 2024-01-22
 [01:55:01] Z reduction using 5 bytes of known plaintext
 100.0 % (5 / 5)

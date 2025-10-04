@@ -36,7 +36,7 @@ def getFlag():
     isClientAddressLocalhost = True if request.remote_addr == LOCALHOST_IP_ADDRESS else False
     if not isClientAddressLocalhost:
         return jsonify({'message': 'Try harder :D'})
-    
+
     return jsonify({'message': FLAG})
 
 if __name__ == '__main__':

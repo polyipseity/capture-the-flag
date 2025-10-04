@@ -46,10 +46,10 @@ def admin():
 def spreadsheet():
     if not is_admin(request.cookies.get('token')):
         return "Unauthorized"
-    
+
     if "file" not in request.files:
         return redirect(url_for("admin"))
-    
+
     file = request.files["file"]
     if file.filename == "":
         return redirect(url_for("admin"))

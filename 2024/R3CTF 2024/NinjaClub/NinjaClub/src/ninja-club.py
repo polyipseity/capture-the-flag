@@ -160,7 +160,7 @@ def preview_page():
 
             <label for="template">Template:</label>
             <textarea id="template" name="template" rows="10">Hello {{user.name}}, are you older than {{user.age}}?</textarea>
-            
+
             <button type="submit">Preview</button>
         </form>
         <div id="output">Preview will appear here...</div>
@@ -173,9 +173,9 @@ def preview_page():
             body.user.name = data.get('name');
             body.user.description = data.get('description');
             body.user.age = data.get('age');
-            
+
             fetch('/preview', {
-                method: 'POST', 
+                method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(body)
             })

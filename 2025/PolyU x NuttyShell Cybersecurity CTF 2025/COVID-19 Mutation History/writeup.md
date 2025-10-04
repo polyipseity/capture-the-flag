@@ -49,7 +49,7 @@ function sanitizeHTML($unsafeHtml) {
     for ($i = $elements->length - 1; $i >= 0; $i--) {
         $element = $elements->item($i);
 
-        // only allow whitelisted HTML tags, as defined in 
+        // only allow whitelisted HTML tags, as defined in
         // constant variable `ALLOWED_HTML_TAGS`
         if (!isset(ALLOWED_HTML_TAGS[$element->nodeName])) {
             $parent = $element->parentNode;

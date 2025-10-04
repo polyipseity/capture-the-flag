@@ -5,7 +5,7 @@ API_ENDPOINT = '/api/weather'
 
 app = Flask(__name__)
 
-# Hard-coded JSON data, as we don't want other third 
+# Hard-coded JSON data, as we don't want other third
 # parties involve in this challenge.
 WEATHER_INFORMATION = {
     'location': 'The Hong Kong Polytechnic University - NuttyShell HQ',
