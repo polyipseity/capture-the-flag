@@ -5,7 +5,7 @@ write_index = 4
 data_index = 5
 indices = [1, 2, 3, 8]
 
-with open("decode.txt", "wt") as out:
+with open("decode.bin", "wt") as out:
     for indices_p in permutations(indices, len(indices)):
         nibbles = list[str]()
         with open("Sniffed_Conversations.csv", newline="") as csvfile:
