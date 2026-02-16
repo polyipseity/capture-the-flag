@@ -1,0 +1,78 @@
+# CI: Build & Test
+#
+# Purpose:
+#   - Run repository checks: setup pnpm, install dependencies, and run `pnpm run check`.
+#   - Ensure a minimal, reproducible environment for quick CI feedback.
+#
+# Triggers:
+#   - push, pull_request, workflow_dispatch
+#
+# Runner selection rationale (why `ubuntu-slim`):
+#   - Lightweight: smaller VM image → faster startup and less disk usage.
+#   - Reduced attack surface: fewer preinstalled packages lowers risk from CVEs.
+#   - Predictable environment: shares core Ubuntu userspace with `ubuntu-latest` while minimizing extras.
+#   - Caveats: some system packages may be missing; add `apt-get install` steps when needed, or switch to `ubuntu-latest` for debugging.
+#
+# Security & reproducibility notes:
+#   - Use least-privilege permissions (contents: read) and pin action versions where appropriate.
+#   - Use local caches for pnpm/uv to speed builds and reduce external load.
+
+name: "CI: Build & Test"
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "**" # Listen to pushes on all branches
+    tags-ignore:
+      - "**" # Ignore tag pushes
+  workflow_dispatch:
+
+# Use concurrency to deduplicate runs.
+# - For pull requests: group by `pr-<number>` so multiple commits to the same PR
+#   cancel previous runs and only the latest is kept.
+# - For direct pushes: fall back to deduplicating by commit SHA so identical
+#   commits don't trigger multiple concurrent workflows.
+# - Include the `github.workflow` name in the group to avoid cross-workflow collisions.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || github.sha }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: "Build & Test"
+    runs-on: ubuntu-slim # using `ubuntu-slim` to minimize image size and attack surface; see header for rationale
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
+      - name: Install Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "*"
+          cache: "pnpm"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+          version-file: "pyproject.toml"
+
+      - name: Install project
+        run: |
+          pnpm install --frozen-lockfile --ignore-scripts
+          uv sync --locked --all-extras --dev
+
+      - name: Run tests
+        run: pnpm run test
+
+      - name: Build project
+        run: pnpm run build
