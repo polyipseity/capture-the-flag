@@ -25,7 +25,7 @@ to work with the `competitions/` workspace safely and consistently.
 ### Tooling note — `pnpm` vs `uv`
 
 - `pnpm` is the repository's primary package manager for installs and scripts. Use `pnpm` for end-to-end workflows (it will invoke `uv` for Python deps via `prepare`).
-- `uv` is available for direct, reproducible Python environment operations (e.g. `uv run --locked pytest`, `uv sync --locked --all-extras --dev`). Prefer `pnpm` when both are acceptable, but use `uv` when you need locked Python-only commands.
+- `uv` is available for direct, reproducible Python environment operations (e.g. `uv run --locked pytest`, `uv sync --locked --all-extras --dev`). When invoking Python modules prefer `uv run -m <module>` instead of `python -m <module>` so the project's locked `uv` environment and dependency pins are used (example: `uv run -m pytest`). Prefer `pnpm` when both are acceptable, but use `uv` when you need locked Python-only commands.
 
 ## How the repo is organised (rules)
 
@@ -68,6 +68,36 @@ to work with the `competitions/` workspace safely and consistently.
   - `fix(pocs): correct exploit for xyz challenge`
 - Branch naming: `competitions/<year>-<slug>` or `feat/competitions/<slug>`
 - PR checklist: formatting + checks pass, index updated, no secrets committed
+
+## For automated / code-generation agents 🤖
+
+- Purpose: this repository is a curated collection of CTF writeups, PoC code and small tooling — treat `competitions/` as content, not a library.
+- Safe-to-edit targets (common):
+  - `tests/` — add/modify tests for tooling or parsers
+  - `.github/*` — improve CI, prompts, and contributor instructions
+  - `AGENTS.md`, `README.md`, and docs under `competitions/*/` (writeups)
+  - small scripts or utilities under repo root (respect `pyright`/`ruff` rules)
+- Do NOT modify without approval:
+  - Encrypted archives (`*.7z.gpg`) or the `.gpg-id` recipients
+  - CI workflow changes that widen permissions or expose secrets
+  - Large binary blobs — create `archive.7z` and follow encryption workflow
+- Project-specific checks an agent must perform BEFORE committing:
+  1. Run: `pnpm run format && pnpm run check && pnpm run test`
+  2. Ensure every new/modified Python module under `src/` (if any) has `__all__` (tuple) and module + symbol docstrings — see `tests/test_module_exports.py` and `tests/test_docstrings.py`.
+  3. Keep line-length <= 88 (configured in `pyproject.toml`).
+  4. Add tests under `tests/` for any behavioural/tooling change.
+- Patterns & conventions enforced by tests and config:
+  - `__all__` must be a `tuple[str, ...]` and appear after imports (see `tests/test_module_exports.py`).
+  - Every function/class (including nested methods/inner functions) must have a docstring (`tests/test_docstrings.py`).
+  - `competitions/` is excluded from `pyright`/`ruff` (intended for curated challenge content).
+  - Use `pnpm` for repository-level workflows; `uv` is used for Python environment control (`prepare` script calls `uv sync`).
+- Quick examples from the repo (where to look for patterns):
+  - `pyproject.toml` — type checking, ruff config, excludes
+  - `package.json` — `format`, `check`, `test`, `prepare` scripts
+  - `.github/workflows/ci.yml` — CI steps and environment
+  - `tests/test_module_exports.py`, `tests/test_docstrings.py` — enforced code rules
+  - `.github/prompts/commit-staged.prompt.md` — automated commit behavior
+- If a change affects CI or repository policy, open an issue/PR and include tests and CI adjustments where appropriate.
 
 ---
 
