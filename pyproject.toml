@@ -22,7 +22,14 @@ dev = [
 ]
 
 [tool.pyright]
-exclude = ["**/node_modules", "**/__pycache__", "**/.*", ".venv"]
+exclude = [
+  "**/node_modules",
+  "**/__pycache__",
+  "**/.*",
+  ".venv",
+  # Disable type checking for the competitions directory, as it contains many scripts and tools that are not intended to be type-checked.
+  "competitions",
+]
 typeCheckingMode = "strict"
 venv = ".venv"
 venvPath = "."
@@ -33,11 +40,6 @@ enableReachabilityAnalysis = true
 strictDictionaryInference = true
 strictListInference = true
 strictSetInference = true
-
-[[tool.pyright.executionEnvironments]]
-# Disable type checking for the competitions directory, as it contains many scripts and tools that are not intended to be type-checked.
-typeCheckingMode = "off"
-root = "competitions"
 
 [[tool.pyright.executionEnvironments]]
 extraPaths = ["."]
@@ -54,6 +56,8 @@ python_files = "test_*.py"
 
 [tool.ruff]
 line-length = 88
+# Exclude the competitions directory from linting, as it contains many scripts and tools that are not intended to be linted.
+extend-exclude = ["competitions"]
 
 [tool.ruff.lint]
 # Enable Pylint-derived rule that disallows imports outside module top-level
