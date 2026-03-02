@@ -17,7 +17,7 @@ Examples:
 
 PR checklist:
 
-- All formatting/lint checks pass (`pnpm run format && pnpm run check`).
-- Tests pass (`pnpm run test`) for any code changes.
+- All formatting/lint checks pass (`bun run format && bun run check`).
+- Tests pass (`bun run test`) for any code changes.
 - `competitions/` index files updated where applicable.
 - No secrets committed.

@@ -9,8 +9,8 @@ applyTo: "**"
 Install & prepare
 
 ```bash
-# preferred: pnpm (runs `prepare` automatically which syncs Python dev extras via `uv`)
-pnpm install
+# preferred: bun (runs `prepare` automatically which syncs Python dev extras via `uv`)
+bun install
 
 # alternative: run Python environment sync directly with uv
 uv sync --locked --all-extras --dev
@@ -21,9 +21,9 @@ Note: when running Python modules prefer `uv run -m <module>` (e.g. `uv run -m p
 Format, check, test
 
 ```bash
-pnpm run format    # formatting
-pnpm run check     # linters & type checks (competitions/ excluded)
-pnpm run test      # pytest
+bun run format    # formatting
+bun run check     # linters & type checks (competitions/ excluded)
+bun run test      # pytest
 ```
 
 Add a competition (example)
@@ -42,13 +42,13 @@ gpg --encrypt --recipient "$(cat .gpg-id)" --output archive.7z.gpg archive.7z
 
 # commit the encrypted archive (archive.7z.gpg)
 git add competitions/2026/ExampleCTF
-pnpm run format && pnpm run check && pnpm run test
+bun run format && bun run check && bun run test
 git commit -m "feat(competitions): add ExampleCTF 2026 writeup"
 ```
 
 CI
 
-- `.github/workflows/ci.yml` runs the same checks as local `pnpm run check` and `pnpm run test`.
+- `.github/workflows/ci.yml` runs the same checks as local `bun run check` and `bun run test`.
 - Keep CI changes minimal and add tests for any behavioural changes.
 
 When to write tests

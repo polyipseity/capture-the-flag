@@ -14,7 +14,7 @@ applyTo: "**/*.md"
   ```
 
 - Keep outputs / test fixtures inside the competition folder; use relative links.
-- Run `pnpm run format` and `pnpm run check` before committing (formatters/linters will skip `competitions/`).
+- Run `bun run format` and `bun run check` before committing (formatters/linters will skip `competitions/`).
 - Never add secrets, private keys, or plaintext credentials.
 
 Formatting tips:

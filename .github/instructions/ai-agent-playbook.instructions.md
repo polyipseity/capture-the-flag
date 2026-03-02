@@ -14,7 +14,7 @@ What you may change (no human sign-off required):
 
 - Documentation and instructions: `AGENTS.md`, `README.md`, `.github/*` (prompts, instructions).
 - Tests and tooling under `tests/` (add/modify to cover behaviour changes).
-- Small utilities or scripts under the repository root (run `pnpm run check` and add tests).
+- Small utilities or scripts under the repository root (run `bun run check` and add tests).
 
 What requires human review or is disallowed:
 
@@ -24,9 +24,9 @@ What requires human review or is disallowed:
 
 Must-follow verification steps (run before committing):
 
-1. pnpm run format
-2. pnpm run check
-3. pnpm run test
+1. bun run format
+2. bun run check
+3. bun run test
 
 Key repository rules & examples (do this exactly):
 
@@ -44,8 +44,8 @@ How to add a new competition (example):
 
 CI & tooling — quick facts:
 
-- CI runs `pnpm run test` and `pnpm run check` (see `.github/workflows/ci.yml`).
-- Use `pnpm` for repo-level tasks; `uv` is used for Python environment control. Prefer `uv run -m <module>` over `python -m <module>` when invoking Python modules so the locked `uv` environment is respected (example: `uv run -m pytest`).
+- CI runs `bun run test` and `bun run check` (see `.github/workflows/ci.yml`).
+- Use `bun` for repo-level tasks; `uv` is used for Python environment control. Prefer `uv run -m <module>` over `python -m <module>` when invoking Python modules so the locked `uv` environment is respected (example: `uv run -m pytest`).
 
 If you need to change repository policy or CI behaviour, open an issue and propose a PR with tests.
 
