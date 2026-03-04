@@ -6,6 +6,8 @@ applyTo: "**"
 
 # Core workflows 🔁
 
+*When writing tools or tests, follow the project’s async convention: use AnyIO/Asyncer and do not import `asyncio` directly.*
+
 Install & prepare
 
 ```bash

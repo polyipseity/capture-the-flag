@@ -6,6 +6,8 @@ applyTo: "**/*.md"
 
 # Editing conventions — CTF writeups & PoC 🔧
 
+*Any Python code or tests in this submodule should follow the repo’s async conventions (AnyIO/Asyncer; avoid `asyncio`).*
+
 - Use `writeups.md` inside each competition folder for prose and links.
 - Use fenced code blocks with language tags for all PoC/source examples:
 

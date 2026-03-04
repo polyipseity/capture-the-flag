@@ -6,6 +6,8 @@ applyTo: "**"
 
 # Agent quickstart — capture-the-flag ✅
 
+*This submodule’s codebase uses AnyIO/Asyncer for async helpers; avoid importing `asyncio` directly.*
+
 Short checklist to start working safely in this project.
 
 1. Ensure your editor is opened at the project root (the workspace is this folder).

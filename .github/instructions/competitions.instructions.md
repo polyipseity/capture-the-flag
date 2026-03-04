@@ -6,6 +6,8 @@ applyTo: "competitions/**"
 
 # Competitions — conventions & layout 🔒
 
+*The surrounding tooling uses AnyIO/Asyncer for async operations; if you ever touch Python code, avoid importing `asyncio`.*
+
 Directory layout (canonical):
 
 - `competitions/<YYYY>/<Competition Name>/`

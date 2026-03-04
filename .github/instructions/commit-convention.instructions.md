@@ -6,6 +6,8 @@ applyTo: "**"
 
 # Commit & PR conventions 📝
 
+*The codebase is async-capable and uses AnyIO/Asyncer helpers; avoid importing `asyncio` directly when touching Python code.*
+
 - Follow Conventional Commits (enforced via `commitlint`).
 - Suggested scopes: `competitions`, `pocs`, `tools`, `tests`.
 
