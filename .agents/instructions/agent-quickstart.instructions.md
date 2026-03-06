@@ -39,7 +39,7 @@ Notes:
   - Every `def`/`class` must have a docstring (even nested functions) — enforced by tests.
   - Line length: 88 characters (configured in `pyproject.toml`).
 - Commit & PR behaviour for agents:
-  - Use Conventional Commits. See `.github/prompts/commit-staged.prompt.md` (automation will commit staged changes with no confirmation).
+  - Use Conventional Commits. See `.agents/prompts/commit-staged.prompt.md` (automation will commit staged changes with no confirmation).
   - Include tests for behavioural changes; update `competitions/*/writeups.md` indices when adding competitions.
 
 If anything is ambiguous, open a short issue/PR and request human review rather than making large unilateral changes.

@@ -1,7 +1,7 @@
 # AGENTS — capture-the-flag
 
 A focused repository for CTF writeups, challenge code, and archived artifacts.
-This `AGENTS.md` and the companion `.github/instructions/` documents tell contributors and automation how
+This `AGENTS.md` and the companion `.agents/instructions/` documents tell contributors and automation how
 to work with the `competitions/` workspace safely and consistently.
 
 ## Quick reference ✅
@@ -96,7 +96,7 @@ to work with the `competitions/` workspace safely and consistently.
   - `package.json` — `format`, `check`, `test`, `prepare` scripts
   - `.github/workflows/ci.yml` — CI steps and environment
   - `tests/test_module_exports.py`, `tests/test_docstrings.py` — enforced code rules
-  - `.github/prompts/commit-staged.prompt.md` — automated commit behavior
+  - `.agents/prompts/commit-staged.prompt.md` — automated commit behavior
 - If a change affects CI or repository policy, open an issue/PR and include tests and CI adjustments where appropriate.
 
 ---
