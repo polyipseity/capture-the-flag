@@ -33,7 +33,7 @@ to work with the `competitions/` workspace safely and consistently.
   - Put prose writeups in `writeups.md` (or `writeup.md`) inside the competition folder.
   - Store PoC scripts and challenge code together in the same folder.
 - Large/binary artifacts must be encrypted before committing — commit only `*.7z.gpg`.
-- `competitions/` is intentionally excluded from `pyright`/`ruff` checks (ad-hoc tooling allowed).
+- `competitions/` is intentionally excluded from `ty`/`ruff` checks (ad-hoc tooling allowed).
 
 ## Adding a competition — short checklist
 
@@ -76,7 +76,7 @@ to work with the `competitions/` workspace safely and consistently.
   - `tests/` — add/modify tests for tooling or parsers
   - `.github/*` — improve CI, prompts, and contributor instructions
   - `AGENTS.md`, `README.md`, and docs under `competitions/*/` (writeups)
-  - small scripts or utilities under repo root (respect `pyright`/`ruff` rules)
+  - small scripts or utilities under repo root (respect `ty`/`ruff` rules)
 - Do NOT modify without approval:
   - Encrypted archives (`*.7z.gpg`) or the `.gpg-id` recipients
   - CI workflow changes that widen permissions or expose secrets
@@ -89,7 +89,7 @@ to work with the `competitions/` workspace safely and consistently.
 - Patterns & conventions enforced by tests and config:
   - `__all__` must be a `tuple[str, ...]` and appear after imports (see `tests/test_module_exports.py`).
   - Every function/class (including nested methods/inner functions) must have a docstring (`tests/test_docstrings.py`).
-  - `competitions/` is excluded from `pyright`/`ruff` (intended for curated challenge content).
+  - `competitions/` is excluded from `ty`/`ruff` (intended for curated challenge content).
   - Use `bun` for repository-level workflows; `uv` is used for Python environment control (`prepare` script calls `uv sync`).
 - Quick examples from the repo (where to look for patterns):
   - `pyproject.toml` — type checking, ruff config, excludes

@@ -35,7 +35,7 @@ Key repository rules & examples (do this exactly):
 - Add `__all__` as a `tuple[str, ...]` in any new Python module and put it after top-level imports — see `tests/test_module_exports.py`.
 - Every `def`/`class` (including nested functions/methods) must have a docstring — enforced by `tests/test_docstrings.py`.
 - Line length is 88 characters (see `pyproject.toml` / Ruff).
-- `competitions/` is excluded from pyright/ruff checks — treat it as content, not library code.
+- `competitions/` is excluded from ty/ruff checks — treat it as content, not library code.
 
 How to add a new competition (example):
 
