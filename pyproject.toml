@@ -7,12 +7,11 @@ name = "capture-the-flag-e08d4599-4b1d-4b3d-82ac-8ef7551b9ad6"
 version = "0.0.0"
 requires-python = ">=3.14.0"
 description = "Capture the flag"
-license = {file = "LICENSE.txt"}
+license = { file = "LICENSE.txt" }
 readme = "README.md"
 dependencies = [
   "anyio>=4.12.0",
   "asyncer>=0.0.17",
-  "requests>=2.32.0",
   "uvloop>=0.22.0; platform_system != 'Windows'",
   "winloop>=0.5.0; platform_system == 'Windows'",
 ]
@@ -44,11 +43,14 @@ exclude = [
 ]
 
 [tool.pytest.ini_options]
-addopts = ["--cov=./", "--cov-report=term-missing", "--dist=loadscope", "-n=auto", "--strict-markers"]
-testpaths = [
-  ".agents/skills/**/tests_*",
-  "tests",
+addopts = [
+  "--cov=./",
+  "--cov-report=term-missing",
+  "--dist=loadscope",
+  "-n=auto",
+  "--strict-markers",
 ]
+testpaths = [".agents/skills/**/tests_*", "tests"]
 python_files = "test_*.py"
 
 [tool.ruff]
@@ -62,9 +64,22 @@ extend-exclude = ["competitions"]
 extend-select = ["I", "PLC0415"]
 
 [tool.uv]
+package = false
 required-version = ">=0.9.0,<0.11.0"
 
 [tool.uv.build-backend]
 # Do not include any packages in the build, as this project is only a collection of tools and scripts.
 module-name = []
 source-include = ["py.typed"]
+
+[tool.uv.workspace]
+members = [
+  "competitions/2024/1753CTF 2024",
+  "competitions/2024/AmateursCTF 2024",
+  "competitions/2024/b01lers CTF 2024",
+  "competitions/2024/Incognito 5.0",
+  "competitions/2024/jellyCTF",
+  "competitions/2024/Pearl CTF",
+  "competitions/2024/PolyU x NuttyShell Cybersecurity CTF 2024",
+  "competitions/2024/R3CTF 2024",
+]

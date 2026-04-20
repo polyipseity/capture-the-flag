@@ -1,0 +1,13 @@
+[project]
+name = "r3ctf-2024-7f2e4c1b-5a9d-4e3f-b8c2-d5f1a6c9e2b7"
+version = "0.0.0"
+requires-python = ">=3.14.0"
+dependencies = [
+  "fastapi>=0.136.0",
+  "jinja2>=3.1.0",
+  "requests>=2.32.0",
+  "uvicorn[standard]>=0.44.0",
+]
+
+[tool.uv]
+package = false
