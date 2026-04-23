@@ -6,7 +6,7 @@ applyTo: "**"
 
 # Agent quickstart — capture-the-flag ✅
 
-*This submodule’s codebase uses AnyIO/Asyncer for async helpers; avoid importing `asyncio` directly.*
+_This submodule’s codebase uses AnyIO/Asyncer for async helpers; avoid importing `asyncio` directly._
 
 Short checklist to start working safely in this project.
 

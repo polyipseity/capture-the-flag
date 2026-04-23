@@ -6,7 +6,7 @@ applyTo: "competitions/**"
 
 # Competitions — conventions & layout 🔒
 
-*The surrounding tooling uses AnyIO/Asyncer for async operations; if you ever touch Python code, avoid importing `asyncio`.*
+_The surrounding tooling uses AnyIO/Asyncer for async operations; if you ever touch Python code, avoid importing `asyncio`._
 
 Directory layout (canonical):
 

@@ -6,7 +6,7 @@ applyTo: "**"
 
 # Core workflows 🔁
 
-*When writing tools or tests, follow the project’s async convention: use AnyIO/Asyncer and do not import `asyncio` directly.*
+_When writing tools or tests, follow the project’s async convention: use AnyIO/Asyncer and do not import `asyncio` directly._
 
 Install & prepare
 
@@ -71,10 +71,10 @@ Concrete test workflow for code/tooling changes
 Deterministic rigor expectations for tests
 
 - Prefer typed tests: annotate `tmp_path` as `PathLike[str]` and prefer
-   `os.fspath(path_like)` when string conversion is required.
+  `os.fspath(path_like)` when string conversion is required.
 - Keep helper fixtures centralized in `tests/utils.py` and loaded through
-   `tests/conftest.py` (`pytest_plugins = ("tests.utils",)`).
+  `tests/conftest.py` (`pytest_plugins = ("tests.utils",)`).
 - Mirror helper verification under `tests/tests/`.
 - Every new test module must include a module docstring and `__all__ = ()`.
 - For each changed helper/policy function, add both success and failure-path
-   assertions to prevent regression-by-silence.
+  assertions to prevent regression-by-silence.

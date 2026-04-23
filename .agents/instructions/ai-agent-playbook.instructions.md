@@ -6,7 +6,7 @@ applyTo: "**"
 
 # AI agent playbook — focused, safe, verifiable ✅
 
-*Async helpers in this repository use AnyIO/Asyncer; do not import `asyncio`.*
+_Async helpers in this repository use AnyIO/Asyncer; do not import `asyncio`._
 
 This file tells automated/code-generation agents exactly what they may change, how to verify results, and where to look for repository-specific conventions.
 
