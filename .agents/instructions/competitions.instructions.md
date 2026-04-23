@@ -34,3 +34,12 @@ Best practices:
 - Keep PoC scripts small and self-contained.
 - Add a short reproduction note (commands required to run PoC).
 - Prefer reproducible steps over manual, interactive instructions.
+
+If adding helper scripts/tests alongside competition content:
+
+- Add deterministic typed tests under `tests/` (and helper-mirror tests under
+  `tests/tests/` when introducing shared fixtures/helpers).
+- Include module docstring + `__all__ = ()` for new test modules.
+- Cover both success and failure paths for parsing/validation helpers.
+- Run: targeted pytest for touched files → `bun run test` →
+  `bun run format && bun run check`.

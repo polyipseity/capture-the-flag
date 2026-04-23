@@ -57,3 +57,24 @@ When to write tests
 
 - Add tests for tooling, parsers, or scripts placed under `tests/`.
 - Do not add tests for static writeups; instead add small smoke-check scripts if needed.
+
+Concrete test workflow for code/tooling changes
+
+1. Add or update tests first where practical (TDD-friendly).
+2. Run a focused subset for quick iteration (for example a single module under
+   `tests/tests/` or one policy test file).
+3. Run full suite: `bun run test`.
+4. Run full checks: `bun run format && bun run check`.
+5. Confirm policy tests remain strict: `test_module_exports`, `test_docstrings`,
+   `test_git_executable`, and AnyIO backend/plugin wiring checks.
+
+Deterministic rigor expectations for tests
+
+- Prefer typed tests: annotate `tmp_path` as `PathLike[str]` and prefer
+   `os.fspath(path_like)` when string conversion is required.
+- Keep helper fixtures centralized in `tests/utils.py` and loaded through
+   `tests/conftest.py` (`pytest_plugins = ("tests.utils",)`).
+- Mirror helper verification under `tests/tests/`.
+- Every new test module must include a module docstring and `__all__ = ()`.
+- For each changed helper/policy function, add both success and failure-path
+   assertions to prevent regression-by-silence.

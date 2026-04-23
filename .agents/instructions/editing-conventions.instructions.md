@@ -23,3 +23,14 @@ Formatting tips:
 
 - Use short paragraphs and clear headings.
 - Prefer reproducible commands and small PoC scripts over long transcripts.
+
+Testing rigor for related tooling edits:
+
+- If an edit introduces or changes parser/tooling behavior, add deterministic
+  typed tests under `tests/`.
+- Put shared typed fixtures/helpers in `tests/utils.py` and mirror their tests
+  under `tests/tests/`.
+- Ensure new test modules include module docstring and `__all__ = ()`.
+- Add both happy-path and failure-path assertions.
+- Validate in order: targeted pytest files, then `bun run test`, then
+  `bun run format && bun run check`.

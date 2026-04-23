@@ -60,6 +60,55 @@ to work with the `competitions/` workspace safely and consistently.
 - Add tests under `tests/` for any tooling changes.
 - `competitions/` remains excluded from type/lint checks by design.
 
+### Repository testing standard (mirror `self/ledger` rigor)
+
+When changing Python code, test tooling, or test policy in this submodule,
+contributors and agents should match the same structure and strictness used in
+`self/ledger`:
+
+- Keep top-level AST policy tests for exported symbols and docstrings (for
+  example `tests/test_module_exports.py`, `tests/test_docstrings.py`).
+- Keep `tests/conftest.py` authoritative for AnyIO backend selection and plugin
+  wiring.
+- Put typed shared fixtures/helpers in `tests/utils.py`; test them under
+  `tests/tests/test_utils.py`.
+- Mirror source/tooling layout under `tests/` where practical.
+- Require `__all__ = ()` and module docstrings for test modules.
+- Cover both happy paths and failure paths, including parser edge cases and
+  invalid inputs.
+
+### Deterministic typed testing workflow (required)
+
+When editing Python tooling, policy tests, or shared test fixtures, follow this
+exact sequence and keep outputs reproducible:
+
+1. Start with targeted test files for changed scope only, such as:
+   - `tests/tests/test_utils.py`
+   - `tests/tests/test_policy_helpers.py`
+   - `tests/test_anyio_backend.py`
+2. Run full test suite: `bun run test`.
+3. Run format and checks: `bun run format && bun run check`.
+4. If any policy behavior changes, add failure-path assertions (not just happy
+   paths) and keep strictness equivalent or stronger than before.
+
+Typed test expectations:
+
+- Keep tests deterministic: no network, no clock dependence, and no shared
+  global mutable state between tests.
+- Annotate `tmp_path` parameters as `PathLike[str]` in tests.
+- When converting path-like values to strings, prefer `os.fspath(path_like)`.
+- Every new test module must include a module docstring and `__all__ = ()`.
+- Shared fixtures/helpers belong in `tests/utils.py`, and mirrored tests belong
+  under `tests/tests/`.
+
+### Required verification workflow for Python/test changes
+
+1. Run targeted tests for changed areas first (for faster feedback).
+2. Run full suite: `bun run test`.
+3. Run full checks: `bun run format && bun run check`.
+4. If a policy test is intentionally changed, document why in the PR/change
+   description and keep protection strength equivalent or stronger.
+
 ## Commits & PRs
 
 - Follow Conventional Commits. Examples:

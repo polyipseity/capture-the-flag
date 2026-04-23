@@ -4,17 +4,35 @@ The AnyIO plugin is configured here; tests across the repository simply
 depend on the ``anyio_backend`` fixture or use ``@pytest.mark.anyio``.
 """
 
+from typing import TYPE_CHECKING
+
 import pytest
+
+if TYPE_CHECKING:
+    from .utils import GlobPatternParser
 
 """Public API of this test configuration module (empty)."""
 __all__ = ()
 
+"""`pytest_plugins` is a special variable recognized by pytest to load fixtures from other modules."""
+pytest_plugins = ("tests.utils",)
+
 
 @pytest.fixture
-def anyio_backend():
+def anyio_backend() -> tuple[str, dict[str, bool]]:
     """Return the desired backend for AnyIO-based tests.
 
     Using a tuple with ``use_uvloop=True`` requests uvloop explicitly.
     AnyIO still handles platform differences (winloop on Windows) automatically.
     """
     return ("asyncio", {"use_uvloop": True})
+
+
+@pytest.fixture
+def policy_glob_parser_names(
+    policy_glob_parsers: tuple["GlobPatternParser", ...],
+) -> tuple[str, ...]:
+    """Return fully-qualified parser names loaded through shared test fixtures."""
+    return tuple(
+        f"{parser.__module__}.{parser.__name__}" for parser in policy_glob_parsers
+    )

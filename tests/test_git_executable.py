@@ -61,6 +61,7 @@ async def _get_candidate_files() -> AsyncIterator[Path]:
     """
     root = Path(__file__).parent.parent  # repo root
     yielded: set[Path] = set()
+    ordered: list[Path] = []
 
     async def _iter_files(pattern: str) -> AsyncIterator[Path]:
         """Yield all files matching the given glob pattern, relative to the repo root."""
@@ -71,13 +72,18 @@ async def _get_candidate_files() -> AsyncIterator[Path]:
     for pattern, is_exclude in _iter_glob_patterns(_GLOB_SPEC):
         if is_exclude:
             async for p in root.glob(pattern):
-                # Remove any file that has already been yielded.
+                # Remove any file that has already been selected.
                 yielded.discard(p)
+                if p in ordered:
+                    ordered.remove(p)
         else:
             async for p in _iter_files(pattern):
                 if p not in yielded:
                     yielded.add(p)
-                    yield p
+                    ordered.append(p)
+
+    for candidate in ordered:
+        yield candidate
 
 
 async def git_mode(path: Path) -> str | None:

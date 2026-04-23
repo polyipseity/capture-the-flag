@@ -30,12 +30,51 @@ Must-follow verification steps (run before committing):
 2. bun run check
 3. bun run test
 
+For test-heavy or policy changes, run a targeted pytest selection first,
+then the full suite above.
+
+Concrete test execution order (required for policy/tooling edits):
+
+- Run targeted tests for changed scope first (for fast feedback):
+  - `uv run -m pytest tests/tests/test_utils.py`
+  - `uv run -m pytest tests/tests/test_policy_helpers.py`
+  - `uv run -m pytest tests/test_anyio_backend.py`
+- Run full regression suite: `bun run test`.
+- Run formatting + lint/type checks: `bun run format && bun run check`.
+- Do not stop at happy-path coverage: add failure-path assertions for helper
+  and policy tests whenever behavior is touched.
+
 Key repository rules & examples (do this exactly):
 
 - Add `__all__` as a `tuple[str, ...]` in any new Python module and put it after top-level imports — see `tests/test_module_exports.py`.
 - Every `def`/`class` (including nested functions/methods) must have a docstring — enforced by `tests/test_docstrings.py`.
 - Line length is 88 characters (see `pyproject.toml` / Ruff).
 - `competitions/` is excluded from ty/ruff checks — treat it as content, not library code.
+
+Testing architecture expectations (mirror `self/ledger` quality bar):
+
+- Keep top-level AST policy tests for exports/docstrings and extend them with
+  focused regression cases when bugs are fixed.
+- Keep `tests/conftest.py` as single source of truth for AnyIO backend and
+  plugin wiring.
+- Put reusable typed fixtures/helpers in `tests/utils.py` and validate them in
+  `tests/tests/test_utils.py`.
+- Mirror source/tooling layout under `tests/` where practical.
+- Require `__all__ = ()` in test modules and preserve explicit docstrings.
+- New behavioral tests should include both success and failure-path assertions.
+
+Typed determinism rules:
+
+- Keep tests deterministic (no network, no wall-clock dependence, no random
+  data without fixed seed).
+- Annotate `tmp_path` as `PathLike[str]`.
+- Use `os.fspath(path_like)` for path-like conversion when string is needed.
+- Shared fixtures belong in `tests/utils.py` and must be wired through
+  `tests/conftest.py` via `pytest_plugins`.
+
+When changing test policy, do not weaken existing checks. If policy behavior
+must change, replace coverage with equally strict or stricter assertions and
+document the rationale.
 
 How to add a new competition (example):
 
