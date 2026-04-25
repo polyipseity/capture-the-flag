@@ -11,7 +11,7 @@ _This submodule’s codebase uses AnyIO/Asyncer for async helpers; avoid importi
 Short checklist to start working safely in this project.
 
 1. Ensure your editor is opened at the project root (the workspace is this folder).
-2. Install & prepare (preferred): `bun install` — `bun install` runs the `prepare` script automatically, which calls `uv sync` to install Python dev extras. Use `uv` directly when needed: `uv sync --locked --all-extras --dev`. When running Python modules prefer `uv run -m <module>` (for example `uv run -m pytest`) instead of `python -m <module>` so the locked `uv` environment is used.
+2. Install & prepare (preferred): `bun install` — `bun install` runs the `prepare` script automatically, which calls `uv sync` to install Python dev extras. Use `uv` directly when needed: `uv sync --locked`. When running Python modules prefer `uv run -m <module>` (for example `uv run -m pytest`) instead of `python -m <module>` so the locked `uv` environment is used.
 3. Format & check locally: `bun run format && bun run check`
 4. Run tests: `bun run test`
 

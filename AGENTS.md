@@ -15,9 +15,9 @@ to work with the `competitions/` workspace safely and consistently.
 
 1. Ensure your editor is opened at the project root (the workspace is this folder).
 2. Install & prepare environment — prefer `bun` (see note):
-   - Preferred (recommended): `bun install`  # `bun install` runs the `prepare` script automatically
+   - Preferred (recommended): `bun install` # `bun install` runs the `prepare` script automatically
      - The `prepare` script in `package.json` calls `uv sync` to install Python development extras.
-   - Alternative (direct `uv`): `uv sync --locked --all-extras --dev`
+   - Alternative (direct `uv`): `uv sync --locked`
 3. Validate and run tests: `bun run format && bun run check && bun run test`
 
 > Run these before opening a PR — CI runs the same checks.
@@ -25,7 +25,7 @@ to work with the `competitions/` workspace safely and consistently.
 ### Tooling note — `bun` vs `uv`
 
 - `bun` is the repository's primary package manager for installs and scripts. Use `bun` for end-to-end workflows (it will invoke `uv` for Python deps via `prepare`).
-- `uv` is available for direct, reproducible Python environment operations (e.g. `uv run --locked pytest`, `uv sync --locked --all-extras --dev`). When invoking Python modules prefer `uv run -m <module>` instead of `python -m <module>` so the project's locked `uv` environment and dependency pins are used (example: `uv run -m pytest`). Prefer `bun` when both are acceptable, but use `uv` when you need locked Python-only commands.
+- `uv` is available for direct, reproducible Python environment operations (e.g. `uv run --locked pytest`, `uv sync --locked`). When invoking Python modules prefer `uv run -m <module>` instead of `python -m <module>` so the project's locked `uv` environment and dependency pins are used (example: `uv run -m pytest`). Prefer `bun` when both are acceptable, but use `uv` when you need locked Python-only commands.
 
 ## How the repo is organised (rules)
 

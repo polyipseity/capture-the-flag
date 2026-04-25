@@ -15,7 +15,7 @@ Install & prepare
 bun install
 
 # alternative: run Python environment sync directly with uv
-uv sync --locked --all-extras --dev
+uv sync --locked
 ```
 
 Note: when running Python modules prefer `uv run -m <module>` (e.g. `uv run -m pytest`) instead of `python -m <module>` so the locked `uv` environment is used.
