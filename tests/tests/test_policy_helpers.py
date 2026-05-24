@@ -1,8 +1,6 @@
 """Tests for helper functions used by policy-enforcement tests."""
 
 import ast
-import asyncio
-import stat
 from os import PathLike
 
 import pytest
@@ -191,55 +189,44 @@ def test_iter_function_and_class_nodes_finds_nested_members() -> None:
 @pytest.mark.anyio
 async def test_get_candidate_files_applies_exclusion_patterns(
     monkeypatch: pytest.MonkeyPatch,
-    scripts_dir_lock: "asyncio.Lock",
 ) -> None:
-    """Candidate file collection should respect include and exclude rules.
+    """Candidate file collection should respect include and exclude rules."""
+    root = Path(git_executable_module.__file__).parent.parent
+    scripts_dir = root / "scripts"
 
-    Uses an async lock to serialize access to the scripts/ directory,
-    preventing race conditions with test_top_level_scripts_executable.
-    """
-    async with scripts_dir_lock:
-        root = Path(git_executable_module.__file__).parent.parent
-        scripts_dir = root / "scripts"
+    scripts_dir_preexisted = await scripts_dir.exists()
+    if not scripts_dir_preexisted:
+        await scripts_dir.mkdir(parents=True, exist_ok=True)
 
-        scripts_dir_preexisted = await scripts_dir.exists()
-        if not scripts_dir_preexisted:
-            await scripts_dir.mkdir(parents=True, exist_ok=True)
+    keep_path = scripts_dir / "__tmp_exec_keep__.sh"
+    drop_path = scripts_dir / "__tmp_exec_drop__.sh"
+    await keep_path.write_text("echo keep\n")
+    await drop_path.write_text("echo drop\n")
 
-        keep_path = scripts_dir / "__tmp_exec_keep__.sh"
-        drop_path = scripts_dir / "__tmp_exec_drop__.sh"
-        await keep_path.write_text("echo keep\n")
-        await drop_path.write_text("echo drop\n")
+    monkeypatch.setattr(
+        git_executable_module,
+        "_GLOB_SPEC",
+        "scripts/__tmp_exec_*.sh\n!scripts/__tmp_exec_drop__.sh\n",
+    )
 
-        # Set executable bit to comply with test_top_level_scripts_executable checks
+    try:
+        candidates = [
+            path async for path in git_executable_module._get_candidate_files()
+        ]
+        assert keep_path in candidates
+        assert drop_path not in candidates
+    finally:
         for path in (keep_path, drop_path):
-            st = await path.stat()
-            await path.chmod(st.st_mode | stat.S_IXUSR | stat.S_IXGRP | stat.S_IXOTH)
+            try:
+                await path.unlink()
+            except FileNotFoundError:
+                pass
 
-        monkeypatch.setattr(
-            git_executable_module,
-            "_GLOB_SPEC",
-            "scripts/__tmp_exec_*.sh\n!scripts/__tmp_exec_drop__.sh\n",
-        )
-
-        try:
-            candidates = [
-                path async for path in git_executable_module._get_candidate_files()
-            ]
-            assert keep_path in candidates
-            assert drop_path not in candidates
-        finally:
-            for path in (keep_path, drop_path):
-                try:
-                    await path.unlink()
-                except FileNotFoundError:
-                    pass
-
-            if not scripts_dir_preexisted:
-                try:
-                    await scripts_dir.rmdir()
-                except OSError:
-                    pass
+        if not scripts_dir_preexisted:
+            try:
+                await scripts_dir.rmdir()
+            except OSError:
+                pass
 
 
 @pytest.mark.anyio
