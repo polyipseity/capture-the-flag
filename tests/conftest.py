@@ -4,6 +4,7 @@ The AnyIO plugin is configured here; tests across the repository simply
 depend on the ``anyio_backend`` fixture or use ``@pytest.mark.anyio``.
 """
 
+import asyncio
 from typing import TYPE_CHECKING
 
 import pytest
@@ -36,3 +37,27 @@ def policy_glob_parser_names(
     return tuple(
         f"{parser.__module__}.{parser.__name__}" for parser in policy_glob_parsers
     )
+
+
+# Lock for synchronizing tests that modify the scripts/ directory
+"""Async lock to serialize access to the scripts/ directory.
+
+Tests that create files in the repository's scripts/ directory should use
+this lock through the scripts_dir_lock fixture to avoid race conditions with
+parallel test execution. This ensures tests like
+test_get_candidate_files_applies_exclusion_patterns and
+test_top_level_scripts_executable don't interfere with each other.
+"""
+_scripts_dir_lock = asyncio.Lock()
+
+
+@pytest.fixture
+async def scripts_dir_lock() -> asyncio.Lock:
+    """Async lock to serialize access to the scripts/ directory.
+
+    Tests that create files in the repository's scripts/ directory should use
+    this fixture to avoid race conditions with parallel test execution. This
+    ensures tests like test_get_candidate_files_applies_exclusion_patterns and
+    test_top_level_scripts_executable don't interfere with each other.
+    """
+    return _scripts_dir_lock
