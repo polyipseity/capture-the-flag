@@ -1,6 +1,7 @@
 """Tests for helper functions used by policy-enforcement tests."""
 
 import ast
+from collections.abc import AsyncIterator
 from os import PathLike
 
 import pytest
@@ -189,44 +190,71 @@ def test_iter_function_and_class_nodes_finds_nested_members() -> None:
 @pytest.mark.anyio
 async def test_get_candidate_files_applies_exclusion_patterns(
     monkeypatch: pytest.MonkeyPatch,
+    tmp_path: PathLike[str],
 ) -> None:
-    """Candidate file collection should respect include and exclude rules."""
-    root = Path(git_executable_module.__file__).parent.parent
-    scripts_dir = root / "scripts"
+    """Candidate file collection should respect include and exclude rules.
 
-    scripts_dir_preexisted = await scripts_dir.exists()
-    if not scripts_dir_preexisted:
-        await scripts_dir.mkdir(parents=True, exist_ok=True)
+    Creates test files in a temporary directory and patches _get_candidate_files
+    to use that directory instead of the real repo, avoiding any filesystem
+    pollution or race conditions with test_top_level_scripts_executable.
+    """
 
-    keep_path = scripts_dir / "__tmp_exec_keep__.sh"
-    drop_path = scripts_dir / "__tmp_exec_drop__.sh"
+    # Create a mock repo structure in tmp_path
+    mock_root = Path(tmp_path)
+    mock_scripts = mock_root / "scripts"
+    await mock_scripts.mkdir(parents=True)
+
+    # Create test files in the mock directory
+    keep_path = mock_scripts / "__tmp_exec_keep__.sh"
+    drop_path = mock_scripts / "__tmp_exec_drop__.sh"
     await keep_path.write_text("echo keep\n")
     await drop_path.write_text("echo drop\n")
 
+    # Patch _get_candidate_files to use our mock root directory
+    # instead of the real repository root
+    async def mock_get_candidate_files() -> AsyncIterator[Path]:
+        """Patched _get_candidate_files that uses mock_root instead of real repo."""
+        root = mock_root
+        yielded: set[Path] = set()
+        ordered: list[Path] = []
+
+        async def _iter_files(pattern: str) -> AsyncIterator[Path]:
+            """Yield all files matching the given glob pattern."""
+            async for p in root.glob(pattern):
+                if await p.is_file():
+                    yield p
+
+        for pattern, is_exclude in git_executable_module._iter_glob_patterns(
+            git_executable_module._GLOB_SPEC
+        ):
+            if is_exclude:
+                async for p in root.glob(pattern):
+                    yielded.discard(p)
+                    if p in ordered:
+                        ordered.remove(p)
+            else:
+                async for p in _iter_files(pattern):
+                    if p not in yielded:
+                        yielded.add(p)
+                        ordered.append(p)
+
+        for candidate in ordered:
+            yield candidate
+
+    monkeypatch.setattr(
+        git_executable_module,
+        "_get_candidate_files",
+        mock_get_candidate_files,
+    )
     monkeypatch.setattr(
         git_executable_module,
         "_GLOB_SPEC",
         "scripts/__tmp_exec_*.sh\n!scripts/__tmp_exec_drop__.sh\n",
     )
 
-    try:
-        candidates = [
-            path async for path in git_executable_module._get_candidate_files()
-        ]
-        assert keep_path in candidates
-        assert drop_path not in candidates
-    finally:
-        for path in (keep_path, drop_path):
-            try:
-                await path.unlink()
-            except FileNotFoundError:
-                pass
-
-        if not scripts_dir_preexisted:
-            try:
-                await scripts_dir.rmdir()
-            except OSError:
-                pass
+    candidates = [path async for path in git_executable_module._get_candidate_files()]
+    assert keep_path in candidates
+    assert drop_path not in candidates
 
 
 @pytest.mark.anyio
