@@ -1,4 +1,4 @@
-# custom {
+# self {
 !*.log
 !*.pyc
 !.env
