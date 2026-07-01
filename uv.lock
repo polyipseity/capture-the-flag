@@ -132,7 +132,7 @@ requires-dist = [
     { name = "cryptography", specifier = ">=49.0.0" },
     { name = "flask", specifier = ">=3.1.0" },
     { name = "flask-login", specifier = ">=0.6.0" },
-    { name = "flask-unsign", extras = ["wordlist"], specifier = ">=1.2.0" },
+    { name = "flask-unsign", extras = ["wordlist"], specifier = ">=1.2.1" },
     { name = "itsdangerous", specifier = ">=2.2.0" },
     { name = "jinja2", specifier = ">=3.1.0" },
     { name = "pillow", specifier = ">=12.2.0" },
