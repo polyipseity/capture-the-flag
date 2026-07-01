@@ -3,7 +3,7 @@ name = "amateursctf-2024-5d8f2e1a-b4c3-4f7e-9d2a-c6e8b1a5f3d9"
 version = "0.0.0"
 requires-python = ">=3.14.0"
 dependencies = [
-  "numpy>=2.4.0",
+  "numpy>=2.5.0",
   "opencv-python>=4.13.0",
   "sympy>=1.14.0",
   "tqdm>=4.67.0",

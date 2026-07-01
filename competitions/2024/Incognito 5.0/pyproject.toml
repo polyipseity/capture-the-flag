@@ -2,7 +2,7 @@
 name = "incognito-5-0-6f4a2d1e-8b9c-4e5f-a7d3-b2c6f1e8a9d5"
 version = "0.0.0"
 requires-python = ">=3.14.0"
-dependencies = ["requests>=2.32.0"]
+dependencies = ["requests>=2.34.2"]
 
 [tool.uv]
 package = false
