@@ -2,6 +2,10 @@ version = 1
 revision = 3
 requires-python = ">=3.14.0"
 
+[options]
+exclude-newer = "0001-01-01T00:00:00Z" # This has no effect and is included for backwards compatibility when using relative exclude-newer values.
+exclude-newer-span = "P5D"
+
 [manifest]
 members = [
     "1753ctf-2024-3a2c1f45-7b9e-4d8c-a5f2-e1b3d6c9a847",
