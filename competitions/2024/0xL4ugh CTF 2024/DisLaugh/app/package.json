@@ -7,6 +7,6 @@
   "license": "MIT",
   "dependencies": {
     "electron-browser-storage": "^1.0.7",
-    "jquery": "^3.7.1"
+    "jquery": "^4.0.0"
   }
 }
